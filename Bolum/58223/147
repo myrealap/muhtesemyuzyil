@@ -1,0 +1,260 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	MUHTEŞEM YÜZYIL
+</title>
+    <link rel="shortcut icon" href="/images/myy_fav_icon.gif" />
+	<link rel="stylesheet" type="text/css" href="/css/muhtesem.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/myy_font.css" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/jquery.mCustomScrollbar.css" />
+	<script type="text/javascript" src="/js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.carouFredSel-5.6.2.js"></script>
+    <script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+    
+    <script src="/js/jquery.mousewheel.min.js"></script>
+    <script src="/js/jquery.mCustomScrollbar.js"></script>
+    <script src="/js/jquery.jplayer.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.preloader.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	    $(document).ready(function () {
+
+	       
+
+	        $(".topMenuAction").click(function () {
+	            if ($(".openCloseIdentifier").is(":hidden")) {
+	                $(".slider").animate({ marginTop: "0px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/open.png" alt="open" />');
+	                $(".openCloseIdentifier").show();
+	            } else {
+	                $(".slider").animate({ marginTop: "-163px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/close.png" alt="close" />');
+	                $(".openCloseIdentifier").hide();
+	            }
+	        });
+	        $(".MusicAction").click(function () {
+	            if ($(".openCloseMusic").is(":hidden")) {
+	                $("#MusicImage").html('<img src="/images/music_open.png" alt="musicopen" />');
+	                $(".openCloseMusic").show();
+	            } else {
+	                $("#MusicImage").html('<img src="/images/music_mute.png" alt="musicclose" />');
+	                $(".openCloseMusic").hide();
+	            }
+	        });
+
+	        //	Basic carousel, no options
+	        $('#foo0').carouFredSel({
+	            auto: false,
+	            prev: '#prev2',
+	            next: '#next2',
+	            width: 814
+	        });
+
+	        $("#test").click(function () {
+
+	            
+	        });
+
+	    });
+	</script>
+    <script src="/js/ActiveMenu.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="/css/vertical.slider.css"/>
+<script type="text/javascript">
+    (function ($) {
+        $(window).load(function () {
+            $(".content_7").mCustomScrollbar({
+                scrollEasing: "easeOutQuint",
+                autoDraggerLength: false
+            });
+        });
+    })(jQuery);
+	</script>
+</head>
+<body>
+    <form method="post" action="147" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTM0NDczNzE0OA9kFgJmD2QWAgIDD2QWAgIBD2QWBmYPFgIeA3NyYwVdaHR0cDovL3d3dy50dXJrd2ViLnR2L2VtYmVkMi8xNDcvbXVodGVzZW0teXV6eWlsLTItc2V6b24tNTMtYm9sdW0/cHVibGlzaGVyPW11aHRlc2VteXV6eWlsLnR2ZAIBDxAPFgYeDURhdGFUZXh0RmllbGQFCFNlem9uQWRpHg5EYXRhVmFsdWVGaWVsZAUHU2V6b25Obx4LXyFEYXRhQm91bmRnZBAVAwczLlNlem9uBzIuU2V6b24HMS5TZXpvbhUDBTU4MjI0BTU4MjIzBTU4MjIyFCsDA2dnZxYBAgFkAgIPEA8WBh8BBQhCb2x1bUFkaR8CBQdCb2x1bU5vHwNnZBAVKDRNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiA2My5Cw7Zsw7xtIChTZXpvbiBGaW5hbGkpJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDYyLkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gNjEuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiA2MC5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDU5LkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gNTguQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiA1Ny5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDU1LkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gNTYuQsO2bMO8bShNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiDDlnplbCBCw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDU0LkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gNTMuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiA1Mi5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDUxLkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gNTAuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiA0OS5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDQ4LkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gNDcuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiA0Ni5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDQ1LkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gNDQuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiA0My5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDQyLkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gNDEuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiA0MC5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDM5LkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gMzguQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiAzNy5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDM2LkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gMzUuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiAzNC5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDMzLkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gMzIuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiAzMS5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDMwLkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gMjkuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiAyOC5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAyLlNlem9uIDI3LkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDIuU2V6b24gMjYuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMi5TZXpvbiAyNS5Cw7Zsw7xtFSgDNTg2AzU4NQM1ODQDNTgyAzU4MAM1NzcDNTc2AzU3NAM1NjUDMzE2AzE1MgMxNDcDMTQ2AzE0NQMxNDQDMTQzAzE0MgMxMzkDMTM1AzEzNAMxMzIDMTMxAzEyOQMxMjgDMTI2AzExOQMxMTQDMTExAzExMAMxMDkDMTA3AzEwNAMxMDMDMTAxAzEwMAI5OQI5NgI5NQI5NAI5MxQrAyhnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnFgECC2Rk13EKIqYmxdghwyrlZkpbkmekl+UTLY9/piu4djFYdFw=" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWLALVr8qqDwLT48vEAwLS48vEAwLV48vEAwLB8ty/AwKq6/6iBQKXhJiJDwLd19XiBAKj+ZE8AuTZ/sgJAsHymL8DApeE1IgPAqrrtqIFAs/ygL8DAtnXieIEAuDZ8sgJAs3yjL8DArbrrqIFApOEyIgPAvy+6v8CAtnXheIEAuqajKMPArbrqqIFApOExIgPAtnXgeIEAsLAo8kOAuqaiKMPAtezqpYBAs3yhL8DAuqahKMPApOEvIkPAsLAm8kOAq/5tTwC6pqAow8C4NniyAkCk4S4iQ8C/L7a/wICwsCXyQ4Cr/mxPAKRuLroBwKRuO7rBwKRuOrrBwKRuObrBwKRuOLrB1xVXQe997doy3qB4yvDioikgaj4Uh+KUNtAp/C7Gd+I" />
+
+<!--HEADER-->
+    
+<div class="wrapper_header">
+	<div class="header"> 
+        
+    	<!--myy logo-->
+    	<div class="myylogo_altpage"><a href="/"><img src="/images/myy_logo.png" width="235" height="115" alt="" border="0"/></a></div>
+   		<!--myy logo son--> 
+        
+    	<!--Tims-->
+    	<div class="tims"><a id="test" href="http://www.tims.tv" target="_blank"><img src="/images/myy_tims.png" width="120" height="115" alt="" border="0"/></a></div>
+    	<!--Tims son--> 
+  	</div>
+</div>
+
+
+<!--HEADER SON--> 
+
+<!--BODY-->
+<div class="wrapper_body">
+    
+    <div class="wrapper_genel">
+	<div class="wpapper_fragman">
+      <div class="video">
+      <br />
+
+      <iframe id="Main_Body_FragmanSrc" width="533" height="302" src="http://www.turkweb.tv/embed2/147/muhtesem-yuzyil-2-sezon-53-bolum?publisher=muhtesemyuzyil.tv"></iframe>
+        
+      <br />
+      </div>
+      <br /><br />
+        
+        <br /><br />
+        <!--GALERİ SEZON-->
+            <div class="bolum_bt">
+                <div class="bolum01">
+                    <select name="ctl00$Main_Body$DpSezonlar" id="Main_Body_DpSezonlar" class="MyDrop">
+	<option value="58224">3.Sezon</option>
+	<option selected="selected" value="58223">2.Sezon</option>
+	<option value="58222">1.Sezon</option>
+
+</select>
+                	
+                </div>
+                <div class="bolum02">
+                  <select name="ctl00$Main_Body$DpBolumler" id="Main_Body_DpBolumler" class="MyDrop">
+	<option value="586">Muhteşem Y&#252;zyıl 2.Sezon 63.B&#246;l&#252;m (Sezon Finali)</option>
+	<option value="585">Muhteşem Y&#252;zyıl 2.Sezon 62.B&#246;l&#252;m</option>
+	<option value="584">Muhteşem Y&#252;zyıl 2.Sezon 61.B&#246;l&#252;m</option>
+	<option value="582">Muhteşem Y&#252;zyıl 2.Sezon 60.B&#246;l&#252;m</option>
+	<option value="580">Muhteşem Y&#252;zyıl 2.Sezon 59.B&#246;l&#252;m</option>
+	<option value="577">Muhteşem Y&#252;zyıl 2.Sezon 58.B&#246;l&#252;m</option>
+	<option value="576">Muhteşem Y&#252;zyıl 2.Sezon 57.B&#246;l&#252;m</option>
+	<option value="574">Muhteşem Y&#252;zyıl 2.Sezon 55.B&#246;l&#252;m</option>
+	<option value="565">Muhteşem Y&#252;zyıl 2.Sezon 56.B&#246;l&#252;m</option>
+	<option value="316">Muhteşem Y&#252;zyıl 2.Sezon &#214;zel B&#246;l&#252;m</option>
+	<option value="152">Muhteşem Y&#252;zyıl 2.Sezon 54.B&#246;l&#252;m</option>
+	<option selected="selected" value="147">Muhteşem Y&#252;zyıl 2.Sezon 53.B&#246;l&#252;m</option>
+	<option value="146">Muhteşem Y&#252;zyıl 2.Sezon 52.B&#246;l&#252;m</option>
+	<option value="145">Muhteşem Y&#252;zyıl 2.Sezon 51.B&#246;l&#252;m</option>
+	<option value="144">Muhteşem Y&#252;zyıl 2.Sezon 50.B&#246;l&#252;m</option>
+	<option value="143">Muhteşem Y&#252;zyıl 2.Sezon 49.B&#246;l&#252;m</option>
+	<option value="142">Muhteşem Y&#252;zyıl 2.Sezon 48.B&#246;l&#252;m</option>
+	<option value="139">Muhteşem Y&#252;zyıl 2.Sezon 47.B&#246;l&#252;m</option>
+	<option value="135">Muhteşem Y&#252;zyıl 2.Sezon 46.B&#246;l&#252;m</option>
+	<option value="134">Muhteşem Y&#252;zyıl 2.Sezon 45.B&#246;l&#252;m</option>
+	<option value="132">Muhteşem Y&#252;zyıl 2.Sezon 44.B&#246;l&#252;m</option>
+	<option value="131">Muhteşem Y&#252;zyıl 2.Sezon 43.B&#246;l&#252;m</option>
+	<option value="129">Muhteşem Y&#252;zyıl 2.Sezon 42.B&#246;l&#252;m</option>
+	<option value="128">Muhteşem Y&#252;zyıl 2.Sezon 41.B&#246;l&#252;m</option>
+	<option value="126">Muhteşem Y&#252;zyıl 2.Sezon 40.B&#246;l&#252;m</option>
+	<option value="119">Muhteşem Y&#252;zyıl 2.Sezon 39.B&#246;l&#252;m</option>
+	<option value="114">Muhteşem Y&#252;zyıl 2.Sezon 38.B&#246;l&#252;m</option>
+	<option value="111">Muhteşem Y&#252;zyıl 2.Sezon 37.B&#246;l&#252;m</option>
+	<option value="110">Muhteşem Y&#252;zyıl 2.Sezon 36.B&#246;l&#252;m</option>
+	<option value="109">Muhteşem Y&#252;zyıl 2.Sezon 35.B&#246;l&#252;m</option>
+	<option value="107">Muhteşem Y&#252;zyıl 2.Sezon 34.B&#246;l&#252;m</option>
+	<option value="104">Muhteşem Y&#252;zyıl 2.Sezon 33.B&#246;l&#252;m</option>
+	<option value="103">Muhteşem Y&#252;zyıl 2.Sezon 32.B&#246;l&#252;m</option>
+	<option value="101">Muhteşem Y&#252;zyıl 2.Sezon 31.B&#246;l&#252;m</option>
+	<option value="100">Muhteşem Y&#252;zyıl 2.Sezon 30.B&#246;l&#252;m</option>
+	<option value="99">Muhteşem Y&#252;zyıl 2.Sezon 29.B&#246;l&#252;m</option>
+	<option value="96">Muhteşem Y&#252;zyıl 2.Sezon 28.B&#246;l&#252;m</option>
+	<option value="95">Muhteşem Y&#252;zyıl 2.Sezon 27.B&#246;l&#252;m</option>
+	<option value="94">Muhteşem Y&#252;zyıl 2.Sezon 26.B&#246;l&#252;m</option>
+	<option value="93">Muhteşem Y&#252;zyıl 2.Sezon 25.B&#246;l&#252;m</option>
+
+</select>
+                	
+                </div>
+                <script type="text/javascript" src="/js/vertical.slider.standard.js"></script>
+				<script type="text/javascript">
+				    $('.scroll-pane').each(function () {
+				        setSlider($(this));
+				    });
+                </script>
+                <div class="bolum03"><a href="/BolumOzeti">03.BÖLÜM</a></div>
+            </div>
+        <!--GALERİ SEZON-->
+    <div style="clear:both;"></div>
+    </div>
+</div>
+
+</div>
+<!--BODY-SON-->
+
+<!--SLİDER PANEL-->
+<div class="sliderWrap">
+	<div class="openCloseIdentifier">
+        
+    </div>
+    <div class="slider">
+    	<div class="sliderContent">
+        	<!--SLİDER PANEL CONTROLS-->
+        
+           
+	<div class="controls">
+    <div id="jquery_jplayer"></div>
+            	<div class="music">
+                <div class="openCloseMusic">
+                    
+                    </div>
+                <a href="#" class="MusicAction" id="MusicImage"><img src="/images/music_open.png" alt="musicopen" /></a>
+                <a href="#" class="MusicAction" id="A1"><img src="/images/music_mute.png" alt="musicopen" /></a>
+                </div>
+                <div class="openCloseWrap"><a href="#" class="topMenuAction" id="topMenuImage"><img src="/images/open.png" alt="open" /></a></div>
+                <div class="menu"><a href="#" class="topMenuAction">MENÜ</a></div>
+                <div class="dil">
+                	<a href="#" class="tr">TR</a>
+                    <a href="#" class="eng">ENG</a>
+                </div>
+            </div>
+            <!--SLİDER PANEL CONTROLS SON-->
+            
+            <!--SLİDER MENU-->
+ <div class="list_carousel">
+				<ul id="foo0">
+					
+                    <li><a rel="1" href="/Fragman" class="fragman">FRAGMAN</a></li>
+					<li><a rel="2" href="/Hikaye" class="hikaye">HİKAYE</a></li>
+                    <li><a rel="3" href="/Oyuncular" class="oyuncular">OYUNCULAR</a></li>
+                    <li><a rel="4" href="/Bolum" class="bolumtanitimi">BÖLÜM TANITIMI</a></li>
+                    <li><a rel="5" href="/Sponsor" class="sponsorlar">SPONSORLAR</a></li>
+                    <li><a rel="6" href="/Galeri" class="galeri">GALERİ</a></li>
+                    <li><a rel="7" href="/Kunye" class="kunye">KÜNYE</a></li>
+                    <li><a rel="8" href="/MultiMedya" class="multimedya">MULTIMEDYA</a></li>
+                    <li><a rel="9" href="/Iletisim" class="iletisim">İLETİŞİM</a></li>
+				</ul>
+				<a id="prev2" class="prev" href="#">GERİ</a>
+				<a id="next2" class="next" href="#">İLERİ</a>
+			</div>
+             <!--SLİDER MENU SON-->
+           
+        </div>
+   </div>
+</div>
+<!--SLİDER PANEL SON-->
+
+<!--COPYRIGHT-->
+<div class="copyright">
+	<div class="copy-in"><a href="http://www.70x100.com" target="_blank"><img src="/images/70x100.png" width="49" height="14" /></a></div>
+</div>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34384717-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })(); 
+</script> 
+
+<!--COPYRIGHT SON-->
+    </form>
+</body>
+</html>

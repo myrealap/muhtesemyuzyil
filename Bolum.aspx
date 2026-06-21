@@ -1,0 +1,230 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	MUHTEŞEM YÜZYIL
+</title>
+    <link rel="shortcut icon" href="/images/myy_fav_icon.gif" />
+	<link rel="stylesheet" type="text/css" href="/css/muhtesem.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/myy_font.css" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/jquery.mCustomScrollbar.css" />
+	<script type="text/javascript" src="/js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.carouFredSel-5.6.2.js"></script>
+    <script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+    
+    <script src="/js/jquery.mousewheel.min.js"></script>
+    <script src="/js/jquery.mCustomScrollbar.js"></script>
+    <script src="/js/jquery.jplayer.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.preloader.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	    $(document).ready(function () {
+
+	       
+
+	        $(".topMenuAction").click(function () {
+	            if ($(".openCloseIdentifier").is(":hidden")) {
+	                $(".slider").animate({ marginTop: "0px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/open.png" alt="open" />');
+	                $(".openCloseIdentifier").show();
+	            } else {
+	                $(".slider").animate({ marginTop: "-163px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/close.png" alt="close" />');
+	                $(".openCloseIdentifier").hide();
+	            }
+	        });
+	        $(".MusicAction").click(function () {
+	            if ($(".openCloseMusic").is(":hidden")) {
+	                $("#MusicImage").html('<img src="/images/music_open.png" alt="musicopen" />');
+	                $(".openCloseMusic").show();
+	            } else {
+	                $("#MusicImage").html('<img src="/images/music_mute.png" alt="musicclose" />');
+	                $(".openCloseMusic").hide();
+	            }
+	        });
+
+	        //	Basic carousel, no options
+	        $('#foo0').carouFredSel({
+	            auto: false,
+	            prev: '#prev2',
+	            next: '#next2',
+	            width: 814
+	        });
+
+	        $("#test").click(function () {
+
+	            
+	        });
+
+	    });
+	</script>
+    <script src="/js/ActiveMenu.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="/css/vertical.slider.css"/>
+<script type="text/javascript">
+    (function ($) {
+        $(window).load(function () {
+            $(".content_7").mCustomScrollbar({
+                scrollEasing: "easeOutQuint",
+                autoDraggerLength: false
+            });
+        });
+    })(jQuery);
+	</script>
+</head>
+<body>
+    <form method="post" action="/Bolum" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTM0NDczNzE0OA9kFgJmD2QWAgIDD2QWAgIBD2QWBmYPFgIeA3NyYwVfaHR0cDovL3d3dy50dXJrd2ViLnR2L2VtYmVkMi82NzcxMi9tdWh0ZXNlbS15dXp5aWwtMy1zZXpvbi03OC1ib2x1bT9wdWJsaXNoZXI9bXVodGVzZW15dXp5aWwudHZkAgEPEA8WBh4NRGF0YVRleHRGaWVsZAUIU2V6b25BZGkeDkRhdGFWYWx1ZUZpZWxkBQdTZXpvbk5vHgtfIURhdGFCb3VuZGdkEBUDBzMuU2V6b24HMi5TZXpvbgcxLlNlem9uFQMFNTgyMjQFNTgyMjMFNTgyMjIUKwMDZ2dnFgFmZAICDxAPFgYfAQUIQm9sdW1BZGkfAgUHQm9sdW1Obx8DZ2QQFQomTXVodGXFn2VtIFnDvHp5xLFsIDMuU2V6b24gNzguIELDtmzDvG0mTXVodGXFn2VtIFnDvHp5xLFsIDMuU2V6b24gNzcuIELDtmzDvG0mTXVodGXFn2VtIFnDvHp5xLFsIDMuU2V6b24gNzYuIELDtmzDvG0mTXVodGXFn2VtIFnDvHp5xLFsIDMuU2V6b24gNzUuIELDtmzDvG0mTXVodGXFn2VtIFnDvHp5xLFsIDMuU2V6b24gNzQuIELDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDMuU2V6b24gNzMuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMy5TZXpvbiA3Mi5Cw7Zsw7xtJU11aHRlxZ9lbSBZw7x6ecSxbCAzLlNlem9uIDcxLkLDtmzDvG0lTXVodGXFn2VtIFnDvHp5xLFsIDMuU2V6b24gNzAuQsO2bMO8bSVNdWh0ZcWfZW0gWcO8ennEsWwgMy5TZXpvbiA2OS5Cw7Zsw7xtFQoFNjc3MTIFNTk1ODgFNTkyNjEFNTg5ODIFNTg2NDkFNTgzNDcFNTcxMDIFNTY4NTIFNDY3NDUFNDY0MDUUKwMKZ2dnZ2dnZ2dnZxYBZmRkCbDe9vhVugWCPbzpUHa+S/DIfCHuzLghraTqYUDrpiU=" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWDgKBmvfhAQLT48vEAwLS48vEAwLV48vEAwLjpfTXAgKM9sXvCALEsrsoAtblq+oCAqDdl7wOAuWZ7fwNAq6rlasOArOegaEFAqqkrMcEAt3gu+gIjg1dJKVADOXGCNjfsXEQoy3/0rIr8X/HZ9esIl4+dQ4=" />
+
+<!--HEADER-->
+    
+<div class="wrapper_header">
+	<div class="header"> 
+        
+    	<!--myy logo-->
+    	<div class="myylogo_altpage"><a href="/"><img src="/images/myy_logo.png" width="235" height="115" alt="" border="0"/></a></div>
+   		<!--myy logo son--> 
+        
+    	<!--Tims-->
+    	<div class="tims"><a id="test" href="http://www.tims.tv" target="_blank"><img src="/images/myy_tims.png" width="120" height="115" alt="" border="0"/></a></div>
+    	<!--Tims son--> 
+  	</div>
+</div>
+
+
+<!--HEADER SON--> 
+
+<!--BODY-->
+<div class="wrapper_body">
+    
+    <div class="wrapper_genel">
+	<div class="wpapper_fragman">
+      <div class="video">
+      <br />
+
+      <iframe id="Main_Body_FragmanSrc" width="533" height="302" src="http://www.turkweb.tv/embed2/67712/muhtesem-yuzyil-3-sezon-78-bolum?publisher=muhtesemyuzyil.tv"></iframe>
+        
+      <br />
+      </div>
+      <br /><br />
+        
+        <br /><br />
+        <!--GALERİ SEZON-->
+            <div class="bolum_bt">
+                <div class="bolum01">
+                    <select name="ctl00$Main_Body$DpSezonlar" id="Main_Body_DpSezonlar" class="MyDrop">
+	<option selected="selected" value="58224">3.Sezon</option>
+	<option value="58223">2.Sezon</option>
+	<option value="58222">1.Sezon</option>
+
+</select>
+                	
+                </div>
+                <div class="bolum02">
+                  <select name="ctl00$Main_Body$DpBolumler" id="Main_Body_DpBolumler" class="MyDrop">
+	<option selected="selected" value="67712">Muhteşem Y&#252;zyıl 3.Sezon 78. B&#246;l&#252;m</option>
+	<option value="59588">Muhteşem Y&#252;zyıl 3.Sezon 77. B&#246;l&#252;m</option>
+	<option value="59261">Muhteşem Y&#252;zyıl 3.Sezon 76. B&#246;l&#252;m</option>
+	<option value="58982">Muhteşem Y&#252;zyıl 3.Sezon 75. B&#246;l&#252;m</option>
+	<option value="58649">Muhteşem Y&#252;zyıl 3.Sezon 74. B&#246;l&#252;m</option>
+	<option value="58347">Muhteşem Y&#252;zyıl 3.Sezon 73.B&#246;l&#252;m</option>
+	<option value="57102">Muhteşem Y&#252;zyıl 3.Sezon 72.B&#246;l&#252;m</option>
+	<option value="56852">Muhteşem Y&#252;zyıl 3.Sezon 71.B&#246;l&#252;m</option>
+	<option value="46745">Muhteşem Y&#252;zyıl 3.Sezon 70.B&#246;l&#252;m</option>
+	<option value="46405">Muhteşem Y&#252;zyıl 3.Sezon 69.B&#246;l&#252;m</option>
+
+</select>
+                	
+                </div>
+                <script type="text/javascript" src="/js/vertical.slider.standard.js"></script>
+				<script type="text/javascript">
+				    $('.scroll-pane').each(function () {
+				        setSlider($(this));
+				    });
+                </script>
+                <div class="bolum03"><a href="/BolumOzeti">03.BÖLÜM</a></div>
+            </div>
+        <!--GALERİ SEZON-->
+    <div style="clear:both;"></div>
+    </div>
+</div>
+
+</div>
+<!--BODY-SON-->
+
+<!--SLİDER PANEL-->
+<div class="sliderWrap">
+	<div class="openCloseIdentifier">
+        
+    </div>
+    <div class="slider">
+    	<div class="sliderContent">
+        	<!--SLİDER PANEL CONTROLS-->
+        
+           
+	<div class="controls">
+    <div id="jquery_jplayer"></div>
+            	<div class="music">
+                <div class="openCloseMusic">
+                    
+                    </div>
+                <a href="#" class="MusicAction" id="MusicImage"><img src="/images/music_open.png" alt="musicopen" /></a>
+                <a href="#" class="MusicAction" id="A1"><img src="/images/music_mute.png" alt="musicopen" /></a>
+                </div>
+                <div class="openCloseWrap"><a href="#" class="topMenuAction" id="topMenuImage"><img src="/images/open.png" alt="open" /></a></div>
+                <div class="menu"><a href="#" class="topMenuAction">MENÜ</a></div>
+                <div class="dil">
+                	<a href="#" class="tr">TR</a>
+                    <a href="#" class="eng">ENG</a>
+                </div>
+            </div>
+            <!--SLİDER PANEL CONTROLS SON-->
+            
+            <!--SLİDER MENU-->
+ <div class="list_carousel">
+				<ul id="foo0">
+					
+                    <li><a rel="1" href="/Fragman" class="fragman">FRAGMAN</a></li>
+					<li><a rel="2" href="/Hikaye" class="hikaye">HİKAYE</a></li>
+                    <li><a rel="3" href="/Oyuncular" class="oyuncular">OYUNCULAR</a></li>
+                    <li><a rel="4" href="/Bolum" class="bolumtanitimi">BÖLÜM TANITIMI</a></li>
+                    <li><a rel="5" href="/Sponsor" class="sponsorlar">SPONSORLAR</a></li>
+                    <li><a rel="6" href="/Galeri" class="galeri">GALERİ</a></li>
+                    <li><a rel="7" href="/Kunye" class="kunye">KÜNYE</a></li>
+                    <li><a rel="8" href="/MultiMedya" class="multimedya">MULTIMEDYA</a></li>
+                    <li><a rel="9" href="/Iletisim" class="iletisim">İLETİŞİM</a></li>
+				</ul>
+				<a id="prev2" class="prev" href="#">GERİ</a>
+				<a id="next2" class="next" href="#">İLERİ</a>
+			</div>
+             <!--SLİDER MENU SON-->
+           
+        </div>
+   </div>
+</div>
+<!--SLİDER PANEL SON-->
+
+<!--COPYRIGHT-->
+<div class="copyright">
+	<div class="copy-in"><a href="http://www.70x100.com" target="_blank"><img src="/images/70x100.png" width="49" height="14" /></a></div>
+</div>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34384717-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })(); 
+</script> 
+
+<!--COPYRIGHT SON-->
+    </form>
+</body>
+</html>

@@ -1,0 +1,551 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	MUHTEŞEM YÜZYIL
+</title>
+    <link rel="shortcut icon" href="/images/myy_fav_icon.gif" />
+	<link rel="stylesheet" type="text/css" href="/css/muhtesem.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/myy_font.css" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/jquery.mCustomScrollbar.css" />
+	<script type="text/javascript" src="/js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.carouFredSel-5.6.2.js"></script>
+    <script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+    
+    <script src="/js/jquery.mousewheel.min.js"></script>
+    <script src="/js/jquery.mCustomScrollbar.js"></script>
+    <script src="/js/jquery.jplayer.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.preloader.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	    $(document).ready(function () {
+
+	       
+
+	        $(".topMenuAction").click(function () {
+	            if ($(".openCloseIdentifier").is(":hidden")) {
+	                $(".slider").animate({ marginTop: "0px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/open.png" alt="open" />');
+	                $(".openCloseIdentifier").show();
+	            } else {
+	                $(".slider").animate({ marginTop: "-163px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/close.png" alt="close" />');
+	                $(".openCloseIdentifier").hide();
+	            }
+	        });
+	        $(".MusicAction").click(function () {
+	            if ($(".openCloseMusic").is(":hidden")) {
+	                $("#MusicImage").html('<img src="/images/music_open.png" alt="musicopen" />');
+	                $(".openCloseMusic").show();
+	            } else {
+	                $("#MusicImage").html('<img src="/images/music_mute.png" alt="musicclose" />');
+	                $(".openCloseMusic").hide();
+	            }
+	        });
+
+	        //	Basic carousel, no options
+	        $('#foo0').carouFredSel({
+	            auto: false,
+	            prev: '#prev2',
+	            next: '#next2',
+	            width: 814
+	        });
+
+	        $("#test").click(function () {
+
+	            
+	        });
+
+	    });
+	</script>
+    <script src="/js/ActiveMenu.js"></script>
+    
+<script type="text/javascript">
+	(function($){
+			$(window).load(function(){
+				$(".content_3").mCustomScrollbar({
+					scrollEasing:"easeOutQuint",
+					autoDraggerLength:false
+				});
+			});
+		})(jQuery);
+	</script>
+</head>
+<body>
+    <form method="post" action="/Hikaye" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMzI3MzEzMjQ0ZGRTNLG/gUBrgZWo9COC6k1JgMY82dMNFsAUSgbp69blcw==" />
+
+
+<!--HEADER-->
+    
+<div class="wrapper_header">
+	<div class="header"> 
+        
+    	<!--myy logo-->
+    	<div class="myylogo_altpage"><a href="/"><img src="/images/myy_logo.png" width="235" height="115" alt="" border="0"/></a></div>
+   		<!--myy logo son--> 
+        
+    	<!--Tims-->
+    	<div class="tims"><a id="test" href="http://www.tims.tv" target="_blank"><img src="/images/myy_tims.png" width="120" height="115" alt="" border="0"/></a></div>
+    	<!--Tims son--> 
+  	</div>
+</div>
+
+
+<!--HEADER SON--> 
+
+<!--BODY-->
+<div class="wrapper_body">
+    
+<div class="wrapper_genel">
+	<div class="wpapper_hikaye">
+		<div class="baslik">HİKAYE</div>
+        <div class="content_3 verticaltext">
+			<!--[if gte mso 9]><xml>
+<o:DocumentProperties>
+<o:Revision>0</o:Revision>
+<o:TotalTime>0</o:TotalTime>
+<o:Pages>1</o:Pages>
+<o:Words>289</o:Words>
+<o:Characters>1648</o:Characters>
+<o:Company>finger</o:Company>
+<o:Lines>13</o:Lines>
+<o:Paragraphs>3</o:Paragraphs>
+<o:CharactersWithSpaces>1934</o:CharactersWithSpaces>
+<o:Version>14.0</o:Version>
+</o:DocumentProperties>
+<o:OfficeDocumentSettings>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+<o:TargetScreenSize>800x600</o:TargetScreenSize>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->  <!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:View>Normal</w:View>
+<w:Zoom>0</w:Zoom>
+<w:TrackMoves />
+<w:TrackFormatting />
+<w:PunctuationKerning />
+<w:ValidateAgainstSchemas />
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:DoNotPromoteQF />
+<w:LidThemeOther>EN-US</w:LidThemeOther>
+<w:LidThemeAsian>JA</w:LidThemeAsian>
+<w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+<w:Compatibility>
+<w:BreakWrappedTables />
+<w:SnapToGridInCell />
+<w:WrapTextWithPunct />
+<w:UseAsianBreakRules />
+<w:DontGrowAutofit />
+<w:SplitPgBreakAndParaMark />
+<w:EnableOpenTypeKerning />
+<w:DontFlipMirrorIndents />
+<w:OverrideTableStyleHps />
+</w:Compatibility>
+<m:mathPr>
+<m:mathFont m:val="Cambria Math" />
+<m:brkBin m:val="before" />
+<m:brkBinSub m:val="&#45;-" />
+<m:smallFrac m:val="off" />
+<m:dispDef />
+<m:lMargin m:val="0" />
+<m:rMargin m:val="0" />
+<m:defJc m:val="centerGroup" />
+<m:wrapIndent m:val="1440" />
+<m:intLim m:val="subSup" />
+<m:naryLim m:val="undOvr" />
+</m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+LatentStyleCount="276">
+<w:LsdException Locked="false" Priority="0" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Normal" />
+<w:LsdException Locked="false" Priority="9" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="heading 1" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" />
+<w:LsdException Locked="false" Priority="39" Name="toc 1" />
+<w:LsdException Locked="false" Priority="39" Name="toc 2" />
+<w:LsdException Locked="false" Priority="39" Name="toc 3" />
+<w:LsdException Locked="false" Priority="39" Name="toc 4" />
+<w:LsdException Locked="false" Priority="39" Name="toc 5" />
+<w:LsdException Locked="false" Priority="39" Name="toc 6" />
+<w:LsdException Locked="false" Priority="39" Name="toc 7" />
+<w:LsdException Locked="false" Priority="39" Name="toc 8" />
+<w:LsdException Locked="false" Priority="39" Name="toc 9" />
+<w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" />
+<w:LsdException Locked="false" Priority="10" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Title" />
+<w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" />
+<w:LsdException Locked="false" Priority="11" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtitle" />
+<w:LsdException Locked="false" Priority="22" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Strong" />
+<w:LsdException Locked="false" Priority="20" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Emphasis" />
+<w:LsdException Locked="false" Priority="59" SemiHidden="false"
+UnhideWhenUsed="false" Name="Table Grid" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" />
+<w:LsdException Locked="false" Priority="1" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="No Spacing" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 1" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 1" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 1" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 1" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" />
+<w:LsdException Locked="false" Priority="34" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" />
+<w:LsdException Locked="false" Priority="29" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Quote" />
+<w:LsdException Locked="false" Priority="30" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 1" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 1" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 1" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 1" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 1" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 2" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 2" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 2" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 2" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 2" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 2" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 2" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 2" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 3" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 3" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 3" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 3" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 3" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 3" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 3" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 3" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 3" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 4" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 4" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 4" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 4" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 4" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 4" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 4" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 4" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 4" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 5" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 5" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 5" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 5" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 5" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 5" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 5" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 5" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 5" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 6" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 6" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 6" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 6" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 6" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 6" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 6" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 6" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 6" />
+<w:LsdException Locked="false" Priority="19" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" />
+<w:LsdException Locked="false" Priority="21" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" />
+<w:LsdException Locked="false" Priority="31" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" />
+<w:LsdException Locked="false" Priority="32" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" />
+<w:LsdException Locked="false" Priority="33" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Book Title" />
+<w:LsdException Locked="false" Priority="37" Name="Bibliography" />
+<w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" />
+</w:LatentStyles>
+</xml><![endif]-->  <!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-parent:"";
+mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+mso-para-margin:0cm;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:Calibri;}
+</style>
+<![endif]-->    <!--StartFragment-->
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;"><b><span lang="TR" style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;;color:#222222;mso-fareast-language:TR"><br />
+OSMANLI&rsquo;NIN MUHTEŞEM Y&Uuml;ZYILI...</span></b><span lang="TR" style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:#222222;mso-fareast-language:
+TR"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;"><span lang="TR" style="font-size:12.0pt;font-family:
+&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;color:#222222;
+mso-fareast-language:TR">&nbsp;<o:p></o:p></span><b><span lang="TR" style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;;color:#222222;mso-fareast-language:TR">KANUNİ SULTAN S&Uuml;LEYMAN&rsquo;NIN MUHTEŞEM İKTİDAR Y&Uuml;R&Uuml;Y&Uuml;Ş&Uuml;...<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;"><b><span lang="TR" style="font-size:12.0pt;font-family:
+&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;color:#222222;
+mso-fareast-language:TR">&nbsp;<br />
+</span></b><span lang="TR" style="font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#222222;mso-fareast-language:TR">Yirmialtı yaşında bu b&uuml;y&uuml;k iktidarı y&ouml;netmeye başladığında, <br />
+Sultan S&uuml;leyman &ouml;n&uuml;ne &ouml;yle bir hedef koymuştu ki ;<o:p></o:p></span><span lang="TR" style="font-size:12.0pt;font-family:
+&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;color:#222222;
+mso-fareast-language:TR">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;"><span lang="TR" style="font-size:12.0pt;font-family:
+&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;color:#222222;
+mso-fareast-language:TR">B&uuml;y&uuml;k iskender&rsquo;den daha g&uuml;&ccedil;l&uuml; ve yaygın bir d&uuml;nyada egemenlik kuracak ve Osmanlı&rsquo;yı yenilmez kılacaktı..<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;"><span lang="TR" style="font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#222222;mso-fareast-language:TR">1520 yılında bir av gezisinde aldığı, babası Yavuz Sultan Selim&rsquo;in &ouml;l&uuml;m haberiyle tahta &ccedil;ıkan gen&ccedil; S&uuml;leyman, hayallerinin &ouml;tesinde bir iktidarı y&ouml;neteceğini bilmeden, Manisa&rsquo;daki sarayında karısı Mahidevran ve oğlu k&uuml;&ccedil;&uuml;k şehzade&nbsp; Mustafa&rsquo;yı bırakıp, yanında yakın arkadaşı, yoldaşı Pargalı İbrahim ile yola &ccedil;ıktılar. Topkapı sarayına geldiler...<br />
+<o:p></o:p></span><span lang="TR" style="font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#222222;mso-fareast-language:TR"><br />
+Ve Kanuni Sultan S&uuml;leyman&rsquo;ın kırk altı yıl s&uuml;recek olan iktidarı başlar... S&uuml;leyman, ilk olarak ona şehzadeler doğuran cariye Alexandra&rsquo;yla tanışır, tarihe adını H&uuml;rrem Sultan olarak yazdıran aslen Ukrayna&rsquo;lı k&ouml;le... <br />
+<o:p></o:p></span><span lang="TR" style="font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#222222;mso-fareast-language:TR"><br />
+S&uuml;leyman, d&uuml;nyayı feth etmek i&ccedil;in doğuda Safevi devletiyle, batıda Roma İmparatorluğuyla savaşırken H&uuml;rrem Sultan da Osmanlı hanedanlığında kalıcı olmak i&ccedil;in &ouml;n&uuml;ne &ccedil;ıkan engellerle m&uuml;cadele eder... S&uuml;leyman&rsquo;ın haremi ve diğer krallıklardan gelerek S&uuml;leyman&rsquo;a aşık olan Prenses İsabela Fortuna, Firuze Hatun, H&uuml;rrem&rsquo;in en b&uuml;y&uuml;k rakipleri olur. Ne var ki o b&uuml;y&uuml;k aşk b&uuml;t&uuml;n engelleri aşar. S&uuml;leyman her defasında H&uuml;rrem&rsquo;e geri d&ouml;ner. H&uuml;rrem&rsquo;in saraydaki varlığından S&uuml;leyman&rsquo;ın ilk g&ouml;zdesi Mahidevran etkilenmez... Valide Hafsa Sultan ve S&uuml;leyman&rsquo;ın kardeşi Hatice de H&uuml;rrem&rsquo;in giderek artan etikisinden rahatsız olur.<br />
+<o:p></o:p></span><span lang="TR" style="font-size: 12pt; font-family: 'Times New Roman'; color: rgb(34, 34, 34); background-position: initial initial; background-repeat: initial initial;"><br />
+S&uuml;leyman, H&uuml;rrem&rsquo;e olan tutkulu aşkının&nbsp; bedelini&nbsp; hayatında en g&uuml;vendiği dostu, Sadrazamı İbrahim&rsquo;in başını alarak ve oğullarının &ouml;l&uuml;m emirlerini de vererek &ouml;deyecekti.. Zira; H&uuml;rrem Sultan i&ccedil;in iktidar oyunu kanlı ve acımasız bir&nbsp; oyundu... Bu oyundan zaferle &ccedil;ıkmak i&ccedil;in her yol m&uuml;bahtı... <br />
+<o:p></o:p></span><span lang="TR" style="font-size: 12pt; font-family: 'Times New Roman'; color: rgb(34, 34, 34); background-position: initial initial; background-repeat: initial initial;"><br />
+S&uuml;leyman, iktidarı boyunca doğuda adaletli y&ouml;netiminden &ouml;t&uuml;r&uuml; &ldquo;Kanuni&rdquo;, batıda ise yenilik&ccedil;i bakışı sayesinde Muhteşem &uuml;nvanıyla anılır...<o:p></o:p></span></p>
+<!--EndFragment-->
+		</div>
+    </div>
+</div>
+
+</div>
+<!--BODY-SON-->
+
+<!--SLİDER PANEL-->
+<div class="sliderWrap">
+	<div class="openCloseIdentifier">
+        
+    </div>
+    <div class="slider">
+    	<div class="sliderContent">
+        	<!--SLİDER PANEL CONTROLS-->
+        
+           
+	<div class="controls">
+    <div id="jquery_jplayer"></div>
+            	<div class="music">
+                <div class="openCloseMusic">
+                    
+                    </div>
+                <a href="#" class="MusicAction" id="MusicImage"><img src="/images/music_open.png" alt="musicopen" /></a>
+                <a href="#" class="MusicAction" id="A1"><img src="/images/music_mute.png" alt="musicopen" /></a>
+                </div>
+                <div class="openCloseWrap"><a href="#" class="topMenuAction" id="topMenuImage"><img src="/images/open.png" alt="open" /></a></div>
+                <div class="menu"><a href="#" class="topMenuAction">MENÜ</a></div>
+                <div class="dil">
+                	<a href="#" class="tr">TR</a>
+                    <a href="#" class="eng">ENG</a>
+                </div>
+            </div>
+            <!--SLİDER PANEL CONTROLS SON-->
+            
+            <!--SLİDER MENU-->
+ <div class="list_carousel">
+				<ul id="foo0">
+					
+                    <li><a rel="1" href="/Fragman" class="fragman">FRAGMAN</a></li>
+					<li><a rel="2" href="/Hikaye" class="hikaye">HİKAYE</a></li>
+                    <li><a rel="3" href="/Oyuncular" class="oyuncular">OYUNCULAR</a></li>
+                    <li><a rel="4" href="/Bolum" class="bolumtanitimi">BÖLÜM TANITIMI</a></li>
+                    <li><a rel="5" href="/Sponsor" class="sponsorlar">SPONSORLAR</a></li>
+                    <li><a rel="6" href="/Galeri" class="galeri">GALERİ</a></li>
+                    <li><a rel="7" href="/Kunye" class="kunye">KÜNYE</a></li>
+                    <li><a rel="8" href="/MultiMedya" class="multimedya">MULTIMEDYA</a></li>
+                    <li><a rel="9" href="/Iletisim" class="iletisim">İLETİŞİM</a></li>
+				</ul>
+				<a id="prev2" class="prev" href="#">GERİ</a>
+				<a id="next2" class="next" href="#">İLERİ</a>
+			</div>
+             <!--SLİDER MENU SON-->
+           
+        </div>
+   </div>
+</div>
+<!--SLİDER PANEL SON-->
+
+<!--COPYRIGHT-->
+<div class="copyright">
+	<div class="copy-in"><a href="http://www.70x100.com" target="_blank"><img src="/images/70x100.png" width="49" height="14" /></a></div>
+</div>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34384717-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })(); 
+</script> 
+
+<!--COPYRIGHT SON-->
+    </form>
+</body>
+</html>

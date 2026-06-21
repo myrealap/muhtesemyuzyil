@@ -1,0 +1,615 @@
+/* basic scrollbar styling */
+/* vertical scrollbar */
+.mCSB_container{
+	width:auto;
+	margin-right:30px;
+}
+.mCSB_container.mCS_no_scrollbar{
+	margin-right:0;
+}
+.mCustomScrollBox .mCSB_scrollTools{
+	width:16px;
+	height:100%;
+	top:0;
+	right:0;
+}
+.mCSB_scrollTools .mCSB_draggerContainer{
+	height:100%;
+}
+.mCSB_scrollTools .mCSB_buttonUp+.mCSB_draggerContainer{
+	padding-bottom:40px;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+	width:2px;
+	height:100%;
+	margin:0 auto;
+}
+.mCSB_scrollTools .mCSB_dragger{
+	width:100%;
+	height:30px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:4px;
+	height:100%;
+	margin:0 auto;
+	text-align:center;
+}
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown{
+	height:20px;
+	overflow:hidden;
+	margin:0 auto;
+	cursor:pointer;
+}
+.mCSB_scrollTools .mCSB_buttonDown{
+	bottom:0;
+	margin-top:-40px;
+}
+/* horizontal scrollbar */
+.mCSB_horizontal .mCSB_container{
+	height:auto;
+	margin-right:0;
+	margin-bottom:30px;
+}
+.mCSB_horizontal .mCSB_container.mCS_no_scrollbar{
+	margin-bottom:0;
+}
+.mCSB_horizontal.mCustomScrollBox .mCSB_scrollTools{
+	width:100%;
+	height:16px;
+	top:auto;
+	right:auto;
+	bottom:0;
+	left:0;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_draggerContainer{
+	height:100%;
+	width:auto;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonLeft+.mCSB_draggerContainer{
+	padding-bottom:0;
+	padding-right:20px;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_draggerRail{
+	width:100%;
+	height:2px;
+	margin:7px 0;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_dragger{
+	width:30px;
+	height:100%;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:100%;
+	height:4px;
+	margin:6px auto;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonRight{
+	width:20px;
+	height:100%;
+	overflow:hidden;
+	margin:0 auto;
+	cursor:pointer;
+	float:left;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonRight{
+	right:0;
+	bottom:auto;
+	margin-left:-40px;
+	margin-top:-16px;
+	float:right;
+}
+
+/* default scrollbar colors and backgrounds */
+.mCustomScrollBox .mCSB_scrollTools{
+	opacity:0.75;
+}
+.mCustomScrollBox:hover .mCSB_scrollTools{
+	opacity:1;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+	filter:"alpha(opacity=40)"; -ms-filter:"alpha(opacity=40)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	filter:"alpha(opacity=75)"; -ms-filter:"alpha(opacity=75)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown,
+.mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_scrollTools .mCSB_buttonRight{
+	background-image:url(../mCSB_buttons.png);
+	background-repeat:no-repeat;
+	opacity:0.4;
+	filter:"alpha(opacity=40)"; -ms-filter:"alpha(opacity=40)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_buttonUp{
+	background-position:0 0;
+}
+.mCSB_scrollTools .mCSB_buttonDown{
+	background-position:0 -20px;
+}
+.mCSB_scrollTools .mCSB_buttonLeft{
+	background-position:0 -40px;
+}
+.mCSB_scrollTools .mCSB_buttonRight{
+	background-position:0 -56px;
+}
+.mCSB_scrollTools .mCSB_buttonUp:hover,
+.mCSB_scrollTools .mCSB_buttonDown:hover,
+.mCSB_scrollTools .mCSB_buttonLeft:hover,
+.mCSB_scrollTools .mCSB_buttonRight:hover{
+	opacity:0.75;
+	filter:"alpha(opacity=75)"; -ms-filter:"alpha(opacity=75)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_buttonUp:active,
+.mCSB_scrollTools .mCSB_buttonDown:active,
+.mCSB_scrollTools .mCSB_buttonLeft:active,
+.mCSB_scrollTools .mCSB_buttonRight:active{
+	opacity:0.9;
+	filter:"alpha(opacity=90)"; -ms-filter:"alpha(opacity=90)"; /* old ie */
+}
+
+/* custom styling */
+
+/* content_5 scrollbar */
+.verticaltext .mCustomScrollBox .mCSB_scrollTools{
+	width:20px;
+}
+.verticaltext .mCSB_scrollTools .mCSB_draggerRail{
+	width:20px;
+	background:url(../images/hikaye_alt.png) 4px center no-repeat;
+}.verticaltext .mCSB_scrollTools .mCSB_dragger{
+	height:20px !important;
+}
+.verticaltext .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	height:20px;
+	width:20px;
+	margin:0px auto;
+	background:url(../images/scroll_dragger_bar_hikaye.png) no-repeat !important;
+}
+.verticaltext .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover{
+	background:url(../images/scroll_dragger_bar_hikaye.png) no-repeat !important;
+}
+.verticaltext .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar_hikaye.png) no-repeat !important;
+}
+.verticaltext .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar_hikaye.png) no-repeat !important;
+}
+.verticaltext .mCSB_scrollTools .mCSB_buttonLeft{
+	background-position:-100px -40px;
+}
+.verticaltext .mCSB_scrollTools .mCSB_buttonRight{
+	background-position:-100px -56px;
+}
+
+/* GALERİ scrollbar */
+.galeri_slider .mCSB_container{
+	width:auto;
+	margin-left:-5px !important;
+	margin-bottom:40px !important;
+}
+.galeri_slider .mCSB_scrollTools{
+	width:100%;
+	margin:0px auto;
+}
+.galeri_slider .mCSB_scrollTools .mCSB_draggerContainer{
+	width:700px;
+	height:27px;
+	margin:0px auto;
+	padding:0px;
+}
+.galeri_slider .mCustomScrollBox .mCSB_scrollTools{
+	width:100% !important;
+	height:27px;
+	background:url(../images/myy_galeri_scroll.png) top center no-repeat;
+	margin:0px auto;
+}
+.galeri_slider .mCSB_scrollTools .mCSB_draggerRail{
+	width:700px;
+	height:27px;
+	margin:0px;
+	padding:0px;
+	background:none;
+	
+}
+.galeri_slider .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:22px;
+	height:22px;
+	background:url(../images/scroll_dragger_bar.png) no-repeat;
+	margin:0px;
+	padding:0px;
+}
+.galeri_slider .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.galeri_slider .mCSB_scrollTools .mCSB_dragger{
+	width:21px !important;
+	height:27px;
+}
+.galeri_slider .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.galeri_slider .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.galeri_slider .mCustomScrollBox .mCSB_scrollTools .mCSB_buttonLeft{
+	opacity:0.7;
+	filter:"alpha(opacity=50)"; -ms-filter:"alpha(opacity=70)"; /* old ie */
+	position:absolute !important;
+	left:10px;
+	top:-190px;
+	width:49px;
+	height:49px;
+	background:url(../images/galeri_control.png) 0px 0px !important;
+}
+.galeri_slider .mCustomScrollBox .mCSB_scrollTools .mCSB_buttonRight{
+	opacity:0.5;
+	filter:"alpha(opacity=50)"; -ms-filter:"alpha(opacity=50)"; /* old ie */
+	position:absolute !important;
+	right:10px;
+	top:-174px;
+	width:49px;
+	height:49px;
+	background:url(../images/galeri_control.png) -49px 0px !important;
+}
+
+
+
+/* konukoyuncu_slider scrollbar */
+.konukoyuncu_slider .mCSB_container{
+	width:auto;
+	margin-left:-5px !important;
+	margin-bottom:40px !important;
+}
+.konukoyuncu_slider .mCSB_scrollTools{
+	width:100%;
+	margin:0px auto;
+}
+.konukoyuncu_slider .mCSB_scrollTools .mCSB_draggerContainer{
+	width:700px;
+	height:27px;
+	margin:0px auto;
+	padding:0px;
+}
+.konukoyuncu_slider .mCustomScrollBox .mCSB_scrollTools{
+	width:100% !important;
+	height:27px;
+	background:url(../images/myy_galeri_scroll.png) top center no-repeat;
+	margin:0px auto;
+}
+.konukoyuncu_slider .mCSB_scrollTools .mCSB_draggerRail{
+	width:700px;
+	height:27px;
+	margin:0px;
+	padding:0px;
+	background:none;
+	
+}
+.konukoyuncu_slider .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:22px;
+	height:22px;
+	background:url(../images/scroll_dragger_bar.png) no-repeat;
+	margin:0px;
+	padding:0px;
+}
+.konukoyuncu_slider .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.konukoyuncu_slider .mCSB_scrollTools .mCSB_dragger{
+	width:21px !important;
+	height:27px;
+}
+.konukoyuncu_slider .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.konukoyuncu_slider .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.konukoyuncu_slider .mCustomScrollBox .mCSB_scrollTools .mCSB_buttonLeft{
+	opacity:0.7;
+	filter:"alpha(opacity=50)"; -ms-filter:"alpha(opacity=70)"; /* old ie */
+	position:absolute !important;
+	left:10px;
+	top:-190px;
+	width:49px;
+	height:49px;
+	background:url(../images/galeri_control.png) 0px 0px !important;
+}
+.konukoyuncu_slider .mCustomScrollBox .mCSB_scrollTools .mCSB_buttonRight{
+	opacity:0.5;
+	filter:"alpha(opacity=50)"; -ms-filter:"alpha(opacity=50)"; /* old ie */
+	position:absolute !important;
+	right:10px;
+	top:-174px;
+	width:49px;
+	height:49px;
+	background:url(../images/galeri_control.png) -49px 0px !important;
+}
+/* oyuncu_slider scrollbar */
+.oyuncu_slider .mCSB_container{
+	width:auto;
+	margin-bottom:5px !important;
+}
+.oyuncu_slider .mCSB_scrollTools{
+	width:100%;
+	margin:0px auto;
+}
+.oyuncu_slider .mCSB_scrollTools .mCSB_draggerContainer{
+	width:700px;
+	height:27px;
+	margin:0px auto;
+	padding:0px;
+}
+.oyuncu_slider .mCustomScrollBox .mCSB_scrollTools{
+	width:100% !important;
+	height:27px;
+	background:url(../images/myy_galeri_scroll.png) top center no-repeat;
+	margin:0px auto;
+}
+.oyuncu_slider .mCSB_scrollTools .mCSB_draggerRail{
+	width:700px;
+	height:27px;
+	margin:0px;
+	padding:0px;
+	background:none;
+	
+}
+.oyuncu_slider .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:22px;
+	height:22px;
+	background:url(../images/scroll_dragger_bar.png) no-repeat;
+	margin:0px;
+	padding:0px;
+}
+.oyuncu_slider .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.oyuncu_slider .mCSB_scrollTools .mCSB_dragger{
+	width:21px !important;
+	height:27px;
+}
+.oyuncu_slider .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.oyuncu_slider .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.oyuncu_slider .mCustomScrollBox .mCSB_scrollTools .mCSB_buttonLeft{
+	opacity:0.7;
+	filter:"alpha(opacity=50)"; -ms-filter:"alpha(opacity=70)"; /* old ie */
+	position:absolute !important;
+	left:10px;
+	top:-190px;
+	width:49px;
+	height:49px;
+	background:url(../images/galeri_control.png) 0px 0px !important;
+}
+.oyuncu_slider .mCustomScrollBox .mCSB_scrollTools .mCSB_buttonRight{
+	opacity:0.5;
+	filter:"alpha(opacity=50)"; -ms-filter:"alpha(opacity=50)"; /* old ie */
+	position:absolute !important;
+	right:10px;
+	top:-174px;
+	width:49px;
+	height:49px;
+	background:url(../images/galeri_control.png) -49px 0px !important;
+}
+/* OYUNCU scrollbar */
+.oyuncutext .mCSB_container{
+	width:auto;
+	margin-right:45px;
+}
+.oyuncutext .mCustomScrollBox .mCSB_scrollTools{
+	width:20px;
+}
+.oyuncutext .mCSB_scrollTools .mCSB_draggerRail{
+	width:20px;
+	background:url(../images/oyuncu_alt.png) 4px center no-repeat;
+}.oyuncutext .mCSB_scrollTools .mCSB_dragger{
+	height:20px !important;
+}
+.oyuncutext .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	height:20px;
+	width:20px;
+	margin:0px auto;
+	background:url(../images/scroll_dragger_bar_hikaye.png) no-repeat !important;
+}
+.oyuncutext .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover{
+	background:url(../images/scroll_dragger_bar_hikaye.png) no-repeat !important;
+}
+.oyuncutext .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar_hikaye.png) no-repeat !important;
+}
+.oyuncutext .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar_hikaye.png) no-repeat !important;
+}
+.oyuncutext .mCSB_scrollTools .mCSB_buttonLeft{
+	background-position:-100px -40px;
+}
+.oyuncutext .mCSB_scrollTools .mCSB_buttonRight{
+	background-position:-100px -56px;
+}
+
+
+/* BÖLÜM scrollbar */
+.bolumtext .mCSB_container{
+	width:auto;
+	margin-right:30px;
+}
+.bolumtext .mCustomScrollBox .mCSB_scrollTools{
+	width:20px;
+}
+.bolumtext .mCSB_scrollTools .mCSB_draggerRail{
+	width:20px;
+	background:url(../images/bolum_scroll_bar.png) -1px center no-repeat;
+}
+.bolumtext .mCSB_scrollTools .mCSB_dragger{
+	height:20px !important;
+}
+.bolumtext .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	height:20px;
+	width:20px;
+	margin:0px auto;
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.bolumtext .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover{
+	background:url(../images/scroll_dragger_bar_hover.png) no-repeat !important;
+}
+.bolumtext .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar_hover.png) no-repeat !important;
+}
+.bolumtext .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar_hover.png) no-repeat !important;
+}
+.bolumtext .mCSB_scrollTools .mCSB_buttonLeft{
+	background-position:-100px -40px;
+}
+.bolumtext .mCSB_scrollTools .mCSB_buttonRight{
+	background-position:-100px -56px;
+}
+
+/* SPONSOR scrollbar */
+.sponsor_slider .mCustomScrollBox .mCSB_container{
+	width:auto;
+	margin-right:30px !important;
+	margin-left:-5px !important;
+	margin-bottom:60px !important;
+}
+.sponsor_slider .mCSB_scrollTools .mCSB_draggerContainer{
+	height:27px;
+	margin:0px;
+	padding:0px;
+}
+.sponsor_slider .mCustomScrollBox .mCSB_scrollTools{
+	width:658px !important;
+	padding:0px 100px !important;
+	height:27px;
+	background:url(../images/myy_galeri_scroll.png) top center no-repeat;
+}
+.sponsor_slider .mCSB_scrollTools .mCSB_draggerRail{
+	width:658px;
+	height:27px;
+	margin:0px;
+	padding:0px;
+	background:none;
+	
+}
+.sponsor_slider .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:22px;
+	height:22px;
+	background:url(../images/scroll_dragger_bar.png) no-repeat;
+	margin:0px;
+	padding:0px;
+}
+.sponsor_slider .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.sponsor_slider .mCSB_scrollTools .mCSB_dragger{
+	width:21px !important;
+	height:27px;
+}
+.sponsor_slider .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.sponsor_slider .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.sponsor_slider .mCustomScrollBox .mCSB_scrollTools .mCSB_buttonLeft{
+	opacity:0.7;
+	filter:"alpha(opacity=50)"; -ms-filter:"alpha(opacity=70)"; /* old ie */
+	position:absolute !important;
+	left:10px;
+	top:-190px;
+	width:49px;
+	height:49px;
+	background:url(../images/galeri_control.png) 0px 0px !important;
+}
+.sponsor_slider .mCustomScrollBox .mCSB_scrollTools .mCSB_buttonRight{
+	opacity:0.5;
+	filter:"alpha(opacity=50)"; -ms-filter:"alpha(opacity=50)"; /* old ie */
+	position:absolute !important;
+	right:10px;
+	top:-174px;
+	width:49px;
+	height:49px;
+	background:url(../images/galeri_control.png) -49px 0px !important;
+}
+
+/* GALERİ scrollbar */
+.Multimedya_slider .mCSB_container{
+	width:auto;
+	margin-left:-5px !important;
+	margin-bottom:40px !important;
+}
+.Multimedya_slider .mCSB_scrollTools{
+	width:100%;
+	margin:0px auto;
+}
+.Multimedya_slider .mCSB_scrollTools .mCSB_draggerContainer{
+	width:700px;
+	height:27px;
+	margin:0px auto;
+	padding:0px;
+}
+.Multimedya_slider .mCustomScrollBox .mCSB_scrollTools{
+	width:100% !important;
+	height:27px;
+	background:url(../images/myy_galeri_scroll.png) top center no-repeat;
+	margin:0px auto;
+}
+.Multimedya_slider .mCSB_scrollTools .mCSB_draggerRail{
+	width:700px;
+	height:27px;
+	margin:0px;
+	padding:0px;
+	background:none;
+	
+}
+.Multimedya_slider .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:22px;
+	height:22px;
+	background:url(../images/scroll_dragger_bar.png) no-repeat;
+	margin:0px;
+	padding:0px;
+}
+.Multimedya_slider .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.Multimedya_slider .mCSB_scrollTools .mCSB_dragger{
+	width:21px !important;
+	height:27px;
+}
+.Multimedya_slider .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.Multimedya_slider .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background:url(../images/scroll_dragger_bar.png) no-repeat !important;
+}
+.Multimedya_slider .mCustomScrollBox .mCSB_scrollTools .mCSB_buttonLeft{
+	opacity:0.7;
+	filter:"alpha(opacity=50)"; -ms-filter:"alpha(opacity=70)"; /* old ie */
+	position:absolute !important;
+	left:10px;
+	top:-190px;
+	width:49px;
+	height:49px;
+	background:url(../images/galeri_control.png) 0px 0px !important;
+	z-index:100;
+}
+.Multimedya_slider .mCustomScrollBox .mCSB_scrollTools .mCSB_buttonRight{
+	opacity:0.5;
+	filter:"alpha(opacity=50)"; -ms-filter:"alpha(opacity=50)"; /* old ie */
+	position:absolute !important;
+	right:10px;
+	top:-174px;
+	width:49px;
+	height:49px;
+	background:url(../images/galeri_control.png) -49px 0px !important;
+	z-index:100;
+}

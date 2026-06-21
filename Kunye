@@ -1,0 +1,354 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	MUHTEŞEM YÜZYIL
+</title>
+    <link rel="shortcut icon" href="/images/myy_fav_icon.gif" />
+	<link rel="stylesheet" type="text/css" href="/css/muhtesem.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/myy_font.css" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/jquery.mCustomScrollbar.css" />
+	<script type="text/javascript" src="/js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.carouFredSel-5.6.2.js"></script>
+    <script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+    
+    <script src="/js/jquery.mousewheel.min.js"></script>
+    <script src="/js/jquery.mCustomScrollbar.js"></script>
+    <script src="/js/jquery.jplayer.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.preloader.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	    $(document).ready(function () {
+
+	       
+
+	        $(".topMenuAction").click(function () {
+	            if ($(".openCloseIdentifier").is(":hidden")) {
+	                $(".slider").animate({ marginTop: "0px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/open.png" alt="open" />');
+	                $(".openCloseIdentifier").show();
+	            } else {
+	                $(".slider").animate({ marginTop: "-163px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/close.png" alt="close" />');
+	                $(".openCloseIdentifier").hide();
+	            }
+	        });
+	        $(".MusicAction").click(function () {
+	            if ($(".openCloseMusic").is(":hidden")) {
+	                $("#MusicImage").html('<img src="/images/music_open.png" alt="musicopen" />');
+	                $(".openCloseMusic").show();
+	            } else {
+	                $("#MusicImage").html('<img src="/images/music_mute.png" alt="musicclose" />');
+	                $(".openCloseMusic").hide();
+	            }
+	        });
+
+	        //	Basic carousel, no options
+	        $('#foo0').carouFredSel({
+	            auto: false,
+	            prev: '#prev2',
+	            next: '#next2',
+	            width: 814
+	        });
+
+	        $("#test").click(function () {
+
+	            
+	        });
+
+	    });
+	</script>
+    <script src="/js/ActiveMenu.js"></script>
+    
+<script type="text/javascript">
+	(function($){
+			$(window).load(function(){
+				$(".content_4").mCustomScrollbar({
+					scrollEasing:"easeOutQuint",
+					autoDraggerLength:false
+				});
+			});
+		})(jQuery);
+	</script>
+</head>
+<body>
+    <form method="post" action="/Kunye" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTkwODc0ODEyMQ9kFgJmD2QWAgIDD2QWAgIBD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAIVFipmD2QWAmYPFQIHWUFQSU1DSQxUaW11ciBTYXZjxLFkAgEPZBYCZg8VAgxZw5ZORVRNRU5MRVIeWWHEn211ciBUYXlsYW4gdmUgRHVydWwgVGF5bGFuZAICD2QWAmYPFQIHU0VOQVJZTw5ZxLFsbWF6IMWeYWhpbmQCAw9kFgJmDxUCBVlBUElNEFRJTVMgUFJPRFVDVElPTlNkAgQPZBYCZg8VAhVUQVLEsEggREFOScWeTUFOTEnEnkkvRG/Dpy4gRHIuIERlbml6IEVzZW1lbmxpLCBEci4gR8O8bmhhbiBCw7ZyZWvDp2lkAgUPZBYCZg8VAhFTQU5BVCBZw5ZORVRNRU7EsBxOaWzDvGZlciDDh2FtdXIgR2lyaXRsaW/En2x1ZAIGD2QWAmYPFQIQS09TVMOcTSBUQVNBUklNSQ9TZXJkYXIgQmHFn2J1xJ9kAgcPZBYCZg8VAg5ERUtPUiBVWUdVTEFNQRBaYWZlciBLYW55xLFsbWF6ZAIID2QWAmYPFQIHTcOcWsSwSy9GYWhpciBBdGFrb8SfbHUsIEF5dGVraW4gQXRhxZ8gdmUgU29uZXIgQWthbMSxbmQCCQ9kFgJmDxUCFcSwREFSxLAgS09PUkTEsE5BVMOWUg5Nw7xjYWhpdCBNdXJhdGQCCg9kFgJmDxUCFVlBUElNIEtPT1JExLBOQVTDllLDnBTFnmV5YmEgVMO8enPDvHpvxJ9sdWQCCw9kFgJmDxUCH1VMVVNMQVIgQVJBU0kgQ0FTVCBExLBSRUtUw5ZSw5wPQmVhdHJpY2UgS3J1Z2VyZAIMD2QWAmYPFQIFS1VSR1UORW1ydWxsYWggSGVraW1kAg0PZBYCZg8VAg7DllpFTCBFRkVLVExFUglEaWdpZmxhbWVkAg4PZBYCZg8VAgxJxZ5JSyDFnkVGxLANTXVyYXQgWcSxbG1hemQCDw9kFgJmDxUCDkRFS09SIFVZR1VMQU1BDVNleWhhbiDDnG52ZXJkAhAPZBYCZg8VAhJTRVMgT1BFUkFUw5ZSTEVSxLAcRXJoYW4gS3VuZHV6LCBUb2xnYSBZZWxla8OnaWQCEQ9kFgJmDxUCC0bEsE5BTCBNxLBYDk9yw6d1biBLb3psdWNhZAISD2QWAmYPFQISVVlHVUxBWUlDSSBZQVBJTUNJDk5lcm1pbiBFcm/En2x1ZAITD2QWAmYPFQIUMi4gRUvEsFAgWcOWTkVUTUVOxLAUWWHEn8SxeiBBbHAgQWtheWTEsW5kAhQPZBYCZg8VAhZHw5ZSw5xOVMOcIFnDlk5FVE1FTsSwDEJ1cmFrIEthbmJpcmRkHRt93rZJolxBQGO/wFXrnyRTBl8S7dBCBOMhI/ND7cc=" />
+
+
+<!--HEADER-->
+    
+<div class="wrapper_header">
+	<div class="header"> 
+        
+    	<!--myy logo-->
+    	<div class="myylogo_altpage"><a href="/"><img src="/images/myy_logo.png" width="235" height="115" alt="" border="0"/></a></div>
+   		<!--myy logo son--> 
+        
+    	<!--Tims-->
+    	<div class="tims"><a id="test" href="http://www.tims.tv" target="_blank"><img src="/images/myy_tims.png" width="120" height="115" alt="" border="0"/></a></div>
+    	<!--Tims son--> 
+  	</div>
+</div>
+
+
+<!--HEADER SON--> 
+
+<!--BODY-->
+<div class="wrapper_body">
+    
+<div class="wrapper_genel">
+    <div class="wpapper_kunye">
+            <div class="baslik">KÜNYE</div>
+            <div class="content_4 verticaltext">
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>YAPIMCI</h1>
+                        <h2>|</h2>
+                        <h3>Timur Savcı</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>YÖNETMENLER</h1>
+                        <h2>|</h2>
+                        <h3>Yağmur Taylan ve Durul Taylan</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>SENARYO</h1>
+                        <h2>|</h2>
+                        <h3>Yılmaz Şahin</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>YAPIM</h1>
+                        <h2>|</h2>
+                        <h3>TIMS PRODUCTIONS</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>TARİH DANIŞMANLIĞI</h1>
+                        <h2>|</h2>
+                        <h3>Doç. Dr. Deniz Esemenli, Dr. Günhan Börekçi</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>SANAT YÖNETMENİ</h1>
+                        <h2>|</h2>
+                        <h3>Nilüfer Çamur Giritlioğlu</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>KOSTÜM TASARIMI</h1>
+                        <h2>|</h2>
+                        <h3>Serdar Başbuğ</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>DEKOR UYGULAMA</h1>
+                        <h2>|</h2>
+                        <h3>Zafer Kanyılmaz</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>MÜZİK</h1>
+                        <h2>|</h2>
+                        <h3>Fahir Atakoğlu, Aytekin Ataş ve Soner Akalın</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>İDARİ KOORDİNATÖR</h1>
+                        <h2>|</h2>
+                        <h3>Mücahit Murat</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>YAPIM KOORDİNATÖRÜ</h1>
+                        <h2>|</h2>
+                        <h3>Şeyba Tüzsüzoğlu</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>ULUSLAR ARASI CAST DİREKTÖRÜ</h1>
+                        <h2>|</h2>
+                        <h3>Beatrice Kruger</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>KURGU</h1>
+                        <h2>|</h2>
+                        <h3>Emrullah Hekim</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>ÖZEL EFEKTLER</h1>
+                        <h2>|</h2>
+                        <h3>Digiflame</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>IŞIK ŞEFİ</h1>
+                        <h2>|</h2>
+                        <h3>Murat Yılmaz</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>DEKOR UYGULAMA</h1>
+                        <h2>|</h2>
+                        <h3>Seyhan Ünver</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>SES OPERATÖRLERİ</h1>
+                        <h2>|</h2>
+                        <h3>Erhan Kunduz, Tolga Yelekçi</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>FİNAL MİX</h1>
+                        <h2>|</h2>
+                        <h3>Orçun Kozluca</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>UYGULAYICI YAPIMCI</h1>
+                        <h2>|</h2>
+                        <h3>Nermin Eroğlu</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>2. EKİP YÖNETMENİ</h1>
+                        <h2>|</h2>
+                        <h3>Yağız Alp Akaydın</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+                    <!--KÜNYE SATIRI-->
+                    <div class="kunye_satir">
+                        <h1>GÖRÜNTÜ YÖNETMENİ</h1>
+                        <h2>|</h2>
+                        <h3>Burak Kanbir</h3>
+                    </div>
+                    <!--KÜNYE SATIRI SON-->
+                
+            <div style="clear:both"></div>
+        </div>
+    </div>
+</div>
+
+</div>
+<!--BODY-SON-->
+
+<!--SLİDER PANEL-->
+<div class="sliderWrap">
+	<div class="openCloseIdentifier">
+        
+    </div>
+    <div class="slider">
+    	<div class="sliderContent">
+        	<!--SLİDER PANEL CONTROLS-->
+        
+           
+	<div class="controls">
+    <div id="jquery_jplayer"></div>
+            	<div class="music">
+                <div class="openCloseMusic">
+                    
+                    </div>
+                <a href="#" class="MusicAction" id="MusicImage"><img src="/images/music_open.png" alt="musicopen" /></a>
+                <a href="#" class="MusicAction" id="A1"><img src="/images/music_mute.png" alt="musicopen" /></a>
+                </div>
+                <div class="openCloseWrap"><a href="#" class="topMenuAction" id="topMenuImage"><img src="/images/open.png" alt="open" /></a></div>
+                <div class="menu"><a href="#" class="topMenuAction">MENÜ</a></div>
+                <div class="dil">
+                	<a href="#" class="tr">TR</a>
+                    <a href="#" class="eng">ENG</a>
+                </div>
+            </div>
+            <!--SLİDER PANEL CONTROLS SON-->
+            
+            <!--SLİDER MENU-->
+ <div class="list_carousel">
+				<ul id="foo0">
+					
+                    <li><a rel="1" href="/Fragman" class="fragman">FRAGMAN</a></li>
+					<li><a rel="2" href="/Hikaye" class="hikaye">HİKAYE</a></li>
+                    <li><a rel="3" href="/Oyuncular" class="oyuncular">OYUNCULAR</a></li>
+                    <li><a rel="4" href="/Bolum" class="bolumtanitimi">BÖLÜM TANITIMI</a></li>
+                    <li><a rel="5" href="/Sponsor" class="sponsorlar">SPONSORLAR</a></li>
+                    <li><a rel="6" href="/Galeri" class="galeri">GALERİ</a></li>
+                    <li><a rel="7" href="/Kunye" class="kunye">KÜNYE</a></li>
+                    <li><a rel="8" href="/MultiMedya" class="multimedya">MULTIMEDYA</a></li>
+                    <li><a rel="9" href="/Iletisim" class="iletisim">İLETİŞİM</a></li>
+				</ul>
+				<a id="prev2" class="prev" href="#">GERİ</a>
+				<a id="next2" class="next" href="#">İLERİ</a>
+			</div>
+             <!--SLİDER MENU SON-->
+           
+        </div>
+   </div>
+</div>
+<!--SLİDER PANEL SON-->
+
+<!--COPYRIGHT-->
+<div class="copyright">
+	<div class="copy-in"><a href="http://www.70x100.com" target="_blank"><img src="/images/70x100.png" width="49" height="14" /></a></div>
+</div>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34384717-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })(); 
+</script> 
+
+<!--COPYRIGHT SON-->
+    </form>
+</body>
+</html>

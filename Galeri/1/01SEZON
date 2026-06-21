@@ -1,0 +1,503 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	MUHTEŞEM YÜZYIL
+</title>
+    <link rel="shortcut icon" href="/images/myy_fav_icon.gif" />
+	<link rel="stylesheet" type="text/css" href="/css/muhtesem.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/myy_font.css" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/jquery.mCustomScrollbar.css" />
+	<script type="text/javascript" src="/js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.carouFredSel-5.6.2.js"></script>
+    <script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+    
+    <script src="/js/jquery.mousewheel.min.js"></script>
+    <script src="/js/jquery.mCustomScrollbar.js"></script>
+    <script src="/js/jquery.jplayer.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.preloader.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	    $(document).ready(function () {
+
+	       
+
+	        $(".topMenuAction").click(function () {
+	            if ($(".openCloseIdentifier").is(":hidden")) {
+	                $(".slider").animate({ marginTop: "0px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/open.png" alt="open" />');
+	                $(".openCloseIdentifier").show();
+	            } else {
+	                $(".slider").animate({ marginTop: "-163px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/close.png" alt="close" />');
+	                $(".openCloseIdentifier").hide();
+	            }
+	        });
+	        $(".MusicAction").click(function () {
+	            if ($(".openCloseMusic").is(":hidden")) {
+	                $("#MusicImage").html('<img src="/images/music_open.png" alt="musicopen" />');
+	                $(".openCloseMusic").show();
+	            } else {
+	                $("#MusicImage").html('<img src="/images/music_mute.png" alt="musicclose" />');
+	                $(".openCloseMusic").hide();
+	            }
+	        });
+
+	        //	Basic carousel, no options
+	        $('#foo0').carouFredSel({
+	            auto: false,
+	            prev: '#prev2',
+	            next: '#next2',
+	            width: 814
+	        });
+
+	        $("#test").click(function () {
+
+	            
+	        });
+
+	    });
+	</script>
+    <script src="/js/ActiveMenu.js"></script>
+    
+<script src="/js/PreLoadCustom.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+	(function($){
+			$(window).load(function(){
+					$(".galeri_slider").mCustomScrollbar({
+					horizontalScroll:true,
+					scrollButtons:{
+						enable:true
+					},
+					callbacks:{
+						onTotalScrollOffset: 1,
+						onTotalScroll: function(){
+								$('.mCSB_buttonRight').hide();
+							},
+						onScroll: function(){
+								$('.mCSB_buttonRight').show();
+							}
+					}
+
+				});
+			});
+		})(jQuery);
+		
+	</script>
+	
+	
+	
+<script type="text/javascript">
+
+function resizePage(){
+	var docW = $(window).width();
+	var docH = $(window).height();
+	
+	var newH = docH/2;
+	
+	if (newH <320) newH = 320;
+	if (newH >600) newH = 600;
+	
+	$('.galeri_slider .images_container ul li').height(newH);
+	$('.galeri_slider .images_container ul li .content').height(newH);
+	$('.galeri_slider .images_container ul li .content img').height(newH);
+	$('.galeri_slider .images_container').height(newH);
+
+	var topResGenislik = 0;
+	$('.galeri_slider .images_container ul li .content img').each(function(index) {
+		topResGenislik += $(this).width() + 30; //30 right margin
+	});
+
+	$('.galeri_slider .mCSB_container').width(topResGenislik);
+
+	$('.mCSB_buttonLeft').css('top',-1*newH/2);
+	$('.mCSB_buttonRight').css('top',-1*newH/2);
+	
+}		
+	
+$(window).resize(function() {
+  resizePage();
+});
+	
+$(document).ready(function() {
+	resizePage();	
+});
+ resizePage();
+ 
+ setInterval("resizePage()",500);
+ 
+</script>
+
+	
+</head>
+<body>
+    <form method="post" action="/Galeri/1/01SEZON" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTIxMDk5NTE1NzYPZBYCZg9kFgICAw9kFgICAQ9kFgRmDxYCHgtfIUl0ZW1Db3VudAIUFihmD2QWAmYPFQE6L1VzZXJGaWxlcy9HYWxlcmkvMC8zMjAvM3B3MTYyNDZldzVsbG11NDFraXp5bHVjZnc2M2ZoLkpQR2QCAQ9kFgJmDxUBOi9Vc2VyRmlsZXMvR2FsZXJpLzAvMzIwL2s0ODNybHJ3cWt6djIzcGRyMzdnc21ibHF1OWxrNS5KUEdkAgIPZBYCZg8VATovVXNlckZpbGVzL0dhbGVyaS8wLzMyMC9qODl1eDRzcjc4amJ5OGV2dmxscmZ3aXFxc24xcHEuSlBHZAIDD2QWAmYPFQE6L1VzZXJGaWxlcy9HYWxlcmkvMC8zMjAvcjR5ZnJ6bjdpNTdndms4Zzk3bGd0MmFkMXo0ZHBiLkpQR2QCBA9kFgJmDxUBOi9Vc2VyRmlsZXMvR2FsZXJpLzAvMzIwL24waTBnZ2d0ejRzdzFlMTc1cTVkcXhwM2xmMDRoNS5KUEdkAgUPZBYCZg8VATovVXNlckZpbGVzL0dhbGVyaS8wLzMyMC80Ymg2ZWdnanltenZ6bjBod3g5Z2U3enhrOWxreWsuSlBHZAIGD2QWAmYPFQE6L1VzZXJGaWxlcy9HYWxlcmkvMC8zMjAveng0YTBlcjcybWhpamY2YWllcXpreHF2ejB0OGF1LkpQR2QCBw9kFgJmDxUBOi9Vc2VyRmlsZXMvR2FsZXJpLzAvMzIwLzVrOHRrbWppdWcwOTJsMmh5YXg3ODE2MnRrbXdseS5KUEdkAggPZBYCZg8VATovVXNlckZpbGVzL0dhbGVyaS8wLzMyMC95emtnd2lkN3FqZ2FxZGh5cDR0NGo0NnY1d2c0ZHYuSlBHZAIJD2QWAmYPFQE6L1VzZXJGaWxlcy9HYWxlcmkvMC8zMjAvYnhoamFubTdrMGk3cm5meWdkeDJodTJreGg5YmY1LkpQR2QCCg9kFgJmDxUBOi9Vc2VyRmlsZXMvR2FsZXJpLzAvMzIwL3NpNHo3dzViMjY4bnIxMzBrNWQ5ZnRkdmxwdDIzZi5KUEdkAgsPZBYCZg8VATovVXNlckZpbGVzL0dhbGVyaS8wLzMyMC9wYnhta3d2dmMzM3g5dGNkM2FmY2c4dXkyZWI0eDIuSlBHZAIMD2QWAmYPFQE6L1VzZXJGaWxlcy9HYWxlcmkvMC8zMjAvM2sxZXQwbWIwcDgzNTdxbHFycGVhdzVrcWp4MmFyLkpQR2QCDQ9kFgJmDxUBOi9Vc2VyRmlsZXMvR2FsZXJpLzAvMzIwL2NnNGt4NDQ0czJya25oNHI0dnBtamR2NmpwdHFpZy5qcGdkAg4PZBYCZg8VATovVXNlckZpbGVzL0dhbGVyaS8wLzMyMC8zOWtmbmI2NGVncjg3ZGZhc2x2eDhxMHdicTJpMGQuanBnZAIPD2QWAmYPFQE6L1VzZXJGaWxlcy9HYWxlcmkvMC8zMjAvcHNiODZkdXFrbmpwbmNyeG1hN2kxaDdpa2o4bjVxLmpwZ2QCEA9kFgJmDxUBOi9Vc2VyRmlsZXMvR2FsZXJpLzAvMzIwL3NqMnUyZmh2djJ6YmY2MG1iaWNwOGJiZHJnbTh5cC5qcGdkAhEPZBYCZg8VATovVXNlckZpbGVzL0dhbGVyaS8wLzMyMC91eGg3bmZ0ZWpna3BqZWcwZHRkZHpnYmc0c2k5ZHkuanBnZAISD2QWAmYPFQE6L1VzZXJGaWxlcy9HYWxlcmkvMC8zMjAvcHBmcjRpdWczZjh0eWg3YXJjdHdxMHV0d3FhaXphLmpwZ2QCEw9kFgJmDxUBOi9Vc2VyRmlsZXMvR2FsZXJpLzAvMzIwL3lqaTZpZnF3Y3VncmRqYmswNzNweXk4OHNyYXRjdy5qcGdkAgEPFgIfAAIDFgZmD2QWAmYPFQMBMREvR2FsZXJpLzEvMDFTRVpPTgkwMS4gU0VaT05kAgEPZBYCZg8VAwEyES9HYWxlcmkvMi8wMlNFWk9OCTAyLiBTRVpPTmQCAg9kFgJmDxUDATMRL0dhbGVyaS8zLzAzU0VaT04JMDMuIFNFWk9OZGTpMMGFDhgTGYtGlb8uv9w879n8ZBe9Hom2Mwka+MdXrA==" />
+
+
+<!--HEADER-->
+    
+<div class="wrapper_header">
+	<div class="header"> 
+        
+    	<!--myy logo-->
+    	<div class="myylogo_altpage"><a href="/"><img src="/images/myy_logo.png" width="235" height="115" alt="" border="0"/></a></div>
+   		<!--myy logo son--> 
+        
+    	<!--Tims-->
+    	<div class="tims"><a id="test" href="http://www.tims.tv" target="_blank"><img src="/images/myy_tims.png" width="120" height="115" alt="" border="0"/></a></div>
+    	<!--Tims son--> 
+  	</div>
+</div>
+
+
+<!--HEADER SON--> 
+
+<!--BODY-->
+<div class="wrapper_body">
+    
+<div id="PreloadDiv"><div><img src="/images/89.gif" /></div></div>
+<div class="wpapper_galeri">
+    	<!--GALERİ SLİDER-->
+    	<div class="galeri_slider">
+			<div class="images_container">
+            	<ul id="Preimages">
+
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/3pw16246ew5llmu41kizylucfw63fh.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/k483rlrwqkzv23pdr37gsmblqu9lk5.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/j89ux4sr78jby8evvllrfwiqqsn1pq.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/r4yfrzn7i57gvk8g97lgt2ad1z4dpb.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/n0i0gggtz4sw1e175q5dqxp3lf04h5.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/4bh6eggjymzvzn0hwx9ge7zxk9lkyk.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/zx4a0er72mhijf6aieqzkxqvz0t8au.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/5k8tkmjiug092l2hyax78162tkmwly.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/yzkgwid7qjgaqdhyp4t4j46v5wg4dv.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/bxhjanm7k0i7rnfygdx2hu2kxh9bf5.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/si4z7w5b268nr130k5d9ftdvlpt23f.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/pbxmkwvvc33x9tcd3afcg8uy2eb4x2.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/3k1et0mb0p8357qlqrpeaw5kqjx2ar.JPG" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/cg4kx444s2rknh4r4vpmjdv6jptqig.jpg" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/39kfnb64egr87dfaslvx8q0wbq2i0d.jpg" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/psb86duqknjpncrxma7i1h7ikj8n5q.jpg" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/sj2u2fhvv2zbf60mbicp8bbdrgm8yp.jpg" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/uxh7nftejgkpjeg0dtddzgbg4si9dy.jpg" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/ppfr4iug3f8tyh7arctwq0utwqaiza.jpg" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><img src="/UserFiles/Galeri/0/320/yji6ifqwcugrdjbk073pyy88sratcw.jpg" /></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                    
+                	
+                </ul>
+			</div>
+		</div>
+        <!--GALERİ SLİDER SON-->
+        
+        <!--GALERİ SEZON-->
+        <div class="galeri_bt">
+        	  
+                <div class="sezon01"><a href="/Galeri/1/01SEZON">01. SEZON</a></div>
+                
+                <div class="sezon02"><a href="/Galeri/2/02SEZON">02. SEZON</a></div>
+                
+                <div class="sezon03"><a href="/Galeri/3/03SEZON">03. SEZON</a></div>
+                
+        </div>
+        <!--GALERİ SEZON-->
+    </div>
+
+</div>
+<!--BODY-SON-->
+
+<!--SLİDER PANEL-->
+<div class="sliderWrap">
+	<div class="openCloseIdentifier">
+        
+    </div>
+    <div class="slider">
+    	<div class="sliderContent">
+        	<!--SLİDER PANEL CONTROLS-->
+        
+           
+	<div class="controls">
+    <div id="jquery_jplayer"></div>
+            	<div class="music">
+                <div class="openCloseMusic">
+                    
+                    </div>
+                <a href="#" class="MusicAction" id="MusicImage"><img src="/images/music_open.png" alt="musicopen" /></a>
+                <a href="#" class="MusicAction" id="A1"><img src="/images/music_mute.png" alt="musicopen" /></a>
+                </div>
+                <div class="openCloseWrap"><a href="#" class="topMenuAction" id="topMenuImage"><img src="/images/open.png" alt="open" /></a></div>
+                <div class="menu"><a href="#" class="topMenuAction">MENÜ</a></div>
+                <div class="dil">
+                	<a href="#" class="tr">TR</a>
+                    <a href="#" class="eng">ENG</a>
+                </div>
+            </div>
+            <!--SLİDER PANEL CONTROLS SON-->
+            
+            <!--SLİDER MENU-->
+ <div class="list_carousel">
+				<ul id="foo0">
+					
+                    <li><a rel="1" href="/Fragman" class="fragman">FRAGMAN</a></li>
+					<li><a rel="2" href="/Hikaye" class="hikaye">HİKAYE</a></li>
+                    <li><a rel="3" href="/Oyuncular" class="oyuncular">OYUNCULAR</a></li>
+                    <li><a rel="4" href="/Bolum" class="bolumtanitimi">BÖLÜM TANITIMI</a></li>
+                    <li><a rel="5" href="/Sponsor" class="sponsorlar">SPONSORLAR</a></li>
+                    <li><a rel="6" href="/Galeri" class="galeri">GALERİ</a></li>
+                    <li><a rel="7" href="/Kunye" class="kunye">KÜNYE</a></li>
+                    <li><a rel="8" href="/MultiMedya" class="multimedya">MULTIMEDYA</a></li>
+                    <li><a rel="9" href="/Iletisim" class="iletisim">İLETİŞİM</a></li>
+				</ul>
+				<a id="prev2" class="prev" href="#">GERİ</a>
+				<a id="next2" class="next" href="#">İLERİ</a>
+			</div>
+             <!--SLİDER MENU SON-->
+           
+        </div>
+   </div>
+</div>
+<!--SLİDER PANEL SON-->
+
+<!--COPYRIGHT-->
+<div class="copyright">
+	<div class="copy-in"><a href="http://www.70x100.com" target="_blank"><img src="/images/70x100.png" width="49" height="14" /></a></div>
+</div>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34384717-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })(); 
+</script> 
+
+<!--COPYRIGHT SON-->
+    </form>
+</body>
+</html>

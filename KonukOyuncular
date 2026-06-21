@@ -1,0 +1,874 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	MUHTEŞEM YÜZYIL
+</title>
+    <link rel="shortcut icon" href="/images/myy_fav_icon.gif" />
+	<link rel="stylesheet" type="text/css" href="/css/muhtesem.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/myy_font.css" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/jquery.mCustomScrollbar.css" />
+	<script type="text/javascript" src="/js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.carouFredSel-5.6.2.js"></script>
+    <script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+    
+    <script src="/js/jquery.mousewheel.min.js"></script>
+    <script src="/js/jquery.mCustomScrollbar.js"></script>
+    <script src="/js/jquery.jplayer.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.preloader.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	    $(document).ready(function () {
+
+	       
+
+	        $(".topMenuAction").click(function () {
+	            if ($(".openCloseIdentifier").is(":hidden")) {
+	                $(".slider").animate({ marginTop: "0px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/open.png" alt="open" />');
+	                $(".openCloseIdentifier").show();
+	            } else {
+	                $(".slider").animate({ marginTop: "-163px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/close.png" alt="close" />');
+	                $(".openCloseIdentifier").hide();
+	            }
+	        });
+	        $(".MusicAction").click(function () {
+	            if ($(".openCloseMusic").is(":hidden")) {
+	                $("#MusicImage").html('<img src="/images/music_open.png" alt="musicopen" />');
+	                $(".openCloseMusic").show();
+	            } else {
+	                $("#MusicImage").html('<img src="/images/music_mute.png" alt="musicclose" />');
+	                $(".openCloseMusic").hide();
+	            }
+	        });
+
+	        //	Basic carousel, no options
+	        $('#foo0').carouFredSel({
+	            auto: false,
+	            prev: '#prev2',
+	            next: '#next2',
+	            width: 814
+	        });
+
+	        $("#test").click(function () {
+
+	            
+	        });
+
+	    });
+	</script>
+    <script src="/js/ActiveMenu.js"></script>
+    
+<link rel="stylesheet" type="text/css" href="/css/modal.css"/>
+<script type="text/javascript" src="/js/jquery.reveal.js"></script>
+<script src="/js/PreLoadCustom.js" type="text/javascript"></script>
+<script type="text/javascript">
+	//GALERİ SLİDER
+	(function($){
+			$(window).load(function(){
+					$(".konukoyuncu_slider").mCustomScrollbar({
+					horizontalScroll:true,
+					scrollButtons:{
+						enable:true
+					},
+					callbacks:{
+						onTotalScrollOffset: 1,
+						onTotalScroll: function(){
+								$('.mCSB_buttonRight').hide();
+							},
+						onScroll: function(){
+								$('.mCSB_buttonRight').show();
+							}
+					}
+			});
+			$(".content_5").mCustomScrollbar({
+					verticalScroll:true,
+					autoDraggerLength:false,
+					scrollButtons:{
+						enable:false
+					}
+			});
+		});
+			
+		})(jQuery);
+	
+	//KONUK OYUNCU MODAL
+		$(document).ready(function () {
+		    $('.button').click(function (e) { // Button which will activate our modal
+		        $('.modal' + $(this).attr("rel")).reveal({ // The item which will be opened with reveal
+		            animation: 'fade',                   // fade, fadeAndPop, none
+		            animationspeed: 300,                       // how fast animtions are
+		            closeonbackgroundclick: true,              // if you click background will modal close?
+		            dismissmodalclass: 'close'    // the class of a button or element that will close an open modal
+		        });
+		        return false;
+		    });
+		});
+
+
+	</script>
+<script type="text/javascript">
+
+function resizePage(){
+	var docW = $(window).width();
+	var docH = $(window).height();
+	
+	var newH = docH/2;
+	
+	if (newH <320) newH = 320;
+	if (newH >600) newH = 600;
+	
+	$('.konukoyuncu_slider .images_container ul').height(newH);
+	$('.konukoyuncu_slider .images_container ul li').height(newH);
+	$('.konukoyuncu_slider .images_container ul li .content').height(newH);
+	$('.konukoyuncu_slider .images_container ul li .content img').height(newH);
+	$('.konukoyuncu_slider .images_container').height(newH);
+
+	var topResGenislik = 0;
+	$('.konukoyuncu_slider .images_container ul li .content img').each(function(index) {
+		topResGenislik += $(this).width() + 30; //30 right margin
+	});
+
+	$('.konukoyuncu_slider .mCSB_container').width(topResGenislik);
+
+	$('.mCSB_buttonLeft').css('top',-1*newH/2);
+	$('.mCSB_buttonRight').css('top',-1*newH/2);
+	
+}		
+	
+$(window).resize(function() {
+  resizePage();
+});
+	
+$(document).ready(function() {
+	resizePage();	
+});
+ resizePage();
+ 
+ setInterval("resizePage()",500);
+ 
+</script>
+</head>
+<body>
+    <form method="post" action="/KonukOyuncular" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTQ0NTM1NDY5Ng9kFgJmD2QWAgIDD2QWAgIBD2QWBGYPFgIeC18hSXRlbUNvdW50AhYWLGYPZBYCZg8VAgEwQi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvZ2h5YTNhYWN5dmsyN3doMHEydXdmbHZwcXBxOTB6LmpwZ2QCAQ9kFgJmDxUCATFCL1VzZXJGaWxlcy9Lb251a095dW5jdWxhci8wLzMyMC9hN2lua2ppM2Rpcjg1bDd3MXE0bGpzOHQ5aWs1MmMuanBnZAICD2QWAmYPFQIBMkIvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzAvMzIwL2RwbDQ0bGt3ODNrMTRkMThjcTN4ZDRiMjBkNGk1dS5qcGdkAgMPZBYCZg8VAgEzQi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvNXV5Z254M2Z0ZXF1aGFiOGQ0dGdxc2tsZDh0ZXVhLmpwZ2QCBA9kFgJmDxUCATRCL1VzZXJGaWxlcy9Lb251a095dW5jdWxhci8wLzMyMC8yaWVreWY1NGU0YzRxcnh4cHNpMmRoMWhsZDVuM20uSlBHZAIFD2QWAmYPFQIBNUIvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzAvMzIwL3gzenQ4ZnBsZWg2cjBkcHFsN3VuamdxNnk0ajdqMi5qcGdkAgYPZBYCZg8VAgE2Qi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvdjBuNHpsNzcxMDVrdnQ3M2I5Y2dtNWhyYmR3YzBuLmpwZ2QCBw9kFgJmDxUCATdCL1VzZXJGaWxlcy9Lb251a095dW5jdWxhci8wLzMyMC9jZjFwbjFrdXBobTM0aHVnaDNuZzBqdTh0OXFuMXYuanBnZAIID2QWAmYPFQIBOEIvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzAvMzIwL3p0aTNxY2U1ZXEya2tqemNwenN3dzUyOHQ5ZHprZi5qcGdkAgkPZBYCZg8VAgE5Qi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvcGUyY2o3ZTU2bTg5YTc1OTh1cmF1YzI4a2E4cTB6LmpwZ2QCCg9kFgJmDxUCAjEwQi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvNzVudXU4czV6YXllbXhndmpsNHpzd3RrbXFiMmc1LmpwZ2QCCw9kFgJmDxUCAjExQi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvYWJiZHhrNXcxczdxOWMxaXU5eWUyZGJudnNxcm10LmpwZ2QCDA9kFgJmDxUCAjEyQi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvMG5sejk5cnAxYTFzYWppZ3lsOHJtemp2YjNrcWgzLmpwZ2QCDQ9kFgJmDxUCAjEzQi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvcnNtN3MxdGZnaGJwMHA4dzQ5eDU5d2dtOWV2azV3LmpwZ2QCDg9kFgJmDxUCAjE0Qi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvYzZ3YnQ1NHgwZmw2cjRhc3RxZzVlZWZxdTdrZzlrLmpwZ2QCDw9kFgJmDxUCAjE1Qi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvdGU5NHV3YWd1MXY2d255OXVhcmw0MTkyY2xzNWtsLmpwZ2QCEA9kFgJmDxUCAjE2Qi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvcnFrbmtxYTByc2c4MDdqcmNscThjZmhlOHlzYzZ4LmpwZ2QCEQ9kFgJmDxUCAjE3Qi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAveWpyaHJoMnNiajN3cHQyY2V4dDV1bWN1azhtMmRkLmpwZ2QCEg9kFgJmDxUCAjE4Qi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvem4xOGsydzRwOXVrejNzaG5tdmRuZDI2bmx3aThyLmpwZ2QCEw9kFgJmDxUCAjE5Qi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvbW50cjV1dWpsMDk5aTk2YnpmY2tnemw3ZXE3OGo1LmpwZ2QCFA9kFgJmDxUCAjIwQi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvOWJwZXBsam1lbHk5N3NwbnVuNHB0c3BwbnhjamNrLmpwZ2QCFQ9kFgJmDxUCAjIxQi9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMC8zMjAvZGY5d3N4eTk0aDdibG03ZmZ4NDhjbmtrdW1iYnF0LkpQR2QCAQ8WAh8AAhYWLGYPZBYCZg8VBQEwRC9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMjIwLzMyMC9naHlhM2FhY3l2azI3d2gwcTJ1d2ZsdnBxcHE5MHouanBnB0bEsFJVWkUKQ0FOU1UgREVSRcsCS3VyZ3VzYWwgYmlyIGthcmFrdGVyIG9sYW4gRmlydXplLEJhcmJhcm9zIHRhcmFmxLFuZGFuIE9zbWFubMSxIHRvcHJha2xhcsSxbmEgZ2V0aXJpbGlyLiBLJm91bWw7bGUgcGF6YXLEsW5kYSBIJnV1bWw7cnJlbSBTdWx0YW4gdGFyYWbEsW5kYW4gZyZvdW1sO3ImdXVtbDtsJnV1bWw7ciB2ZSBzYXJheWEgYWzEsW7EsXIuIFN1bHRhbiAmbmJzcDtTJnV1bWw7bGV5bWFuJnJzcXVvO2xhIGt1cmR1xJ91IHlha8SxbiBpbGnFn2tpIEgmdXVtbDtycmVtIFN1bHRhbidsYSBrYXLFn8SxIGthcsWfxLF5YSBnZWxtZXNpbmUgbmVkZW4gb2x1ci48YnIgLz4NCjxiciB0eXBlPSJfbW96IiAvPmQCAQ9kFgJmDxUFATFEL1VzZXJGaWxlcy9Lb251a095dW5jdWxhci8yMjAvMzIwL2E3aW5ramkzZGlyODVsN3cxcTRsanM4dDlpazUyYy5qcGcLxZ5BSCBTVUxUQU4NREVOxLBaIMOHQUtJUmMmYW1wO25ic3A7SGF0aWNlIFN1bHRhbifEsW4gZGF2ZXRpeWxlIHNhcmF5YSBnZWxlbiDFnmFoIFN1bHRhbiwgS2FudW5pJ25pbiBrxLF6IGthcmRlxZ9sZXJpbmRlbmRpci5kAgIPZBYCZg8VBQEyRC9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMjIwLzMyMC9kcGw0NGxrdzgzazE0ZDE4Y3EzeGQ0YjIwZDRpNXUuanBnGE1BTEtPw4dPxJ5MVSAtIEJBTMSwIEJFWRFCVVJBSyDDllrDh8SwVsSwVNkCTW9oYSZjY2VkaWw7IFNhdmHFn8SxJ25kYWtpIGJhxZ9hcsSxbGFyxLF5bGEgdGFuxLFuYW4sIHkmdXVtbDtyZWtsaSwgc2F2YcWfJmNjZWRpbDvEsSwgxLBicmFoaW0gUGHFn2EgdmUgU3VsdGFuIFMmdXVtbDtsZXltYW4mcnNxdW87xLFuIHRha2RpcmxlcmluaSB0b3BsYXlhbiBuYW3EsS0gZGnEn2VyIE1hbGtvJmNjZWRpbDtvxJ9sdSBZYWh5YSBQYcWfYXphZGUgQmFsaSBCZXksIFJ1bWVsaW5pbiBlbiAmb3VtbDtuZW1saSBha8SxbmPEsSBiZXlpIG9sc2EgZGEsIGRpemlkZSBTdWx0YW4gUyZ1dW1sO2xleW1hbifEsW4gYmlyIGQmb3VtbDtuZW0gaGFzb2RhYmHFn8Sxc8SxIG9sYXJhayB5ZXIgYWxkxLEuZAIDD2QWAmYPFQUBM0QvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzIyMC8zMjAvNXV5Z254M2Z0ZXF1aGFiOGQ0dGdxc2tsZDh0ZXVhLmpwZw1NT05JQ0EgR1JJVFRJD0JFUkfDnFpBUiBLT1JFTDhWZW5lZGlrIERvJmNjZWRpbDt1IEFsdmlzZSBHaXJpdHRpJ25pbiBrxLF6IGthcmRlxZ9pZGlyLmQCBA9kFgJmDxUFATREL1VzZXJGaWxlcy9Lb251a095dW5jdWxhci8yMjAvMzIwLzJpZWt5ZjU0ZTRjNHFyeHhwc2kyZGgxaGxkNW4zbS5KUEcKRGF5ZSBIYXR1bgxTRU1BIEtFw4fEsEvHASZxdW90O0RheWUgSGF0dW4mcXVvdDsgT3NtYW5sxLEnZGEgcGFkacWfYWhsYXLEsW4gcyZ1dW1sO3Rhbm5lbGVyaW5lIHZlcmlsZW4gaXNpbWRpci4gRGl6aWRlIERheWUgSGF0dW4sIFZhbGlkZSBTdWx0YW4nxLFuIGVuIHlha8SxbsSxZMSxciB2ZSBvbnVuICZvdW1sO2wmdXVtbDttJnV1bWw7biZ1dW1sO24gYXJkxLFuZGFuIGludGloYXIgZWRlci5kAgUPZBYCZg8VBQE1RC9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMjIwLzMyMC94M3p0OGZwbGVoNnIwZHBxbDd1bmpncTZ5NGo3ajIuanBnCkF5YXMgUGHFn2EPRmVobWkgS2FyYWFzbGFu3gEmbmJzcDtaZW5naW5sacSfaSB2ZSBoYXJlbWluaW4gZ2VuacWfbGnEn2kgaWxlICZ1dW1sO25sJnV1bWw7IG9sYW4gQXlhcyBQYcWfYSwgdXp1biB5xLFsbGFyIGt1YmJlIHZlemlybGnEn2luZGVuIHNvbnJhIMSwYnJhaGltIFBhxZ9hJ27EsW4ga2F0bGl5bGUgMTUzNi0zOSBhcmFzxLFuZGEgdmV6aXItaSBhemFtIG9sbXXFnyB2ZSB2ZWJhZGFuICZvdW1sO2xtJnV1bWw7xZ90JnV1bWw7ci5kAgYPZBYCZg8VBQE2RC9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMjIwLzMyMC92MG40emw3NzEwNWt2dDczYjljZ201aHJiZHdjMG4uanBnDkfDnEzFnkFIIEtBTEZBFE7EsEhBTiBCw5xZw5xLQcSeQcOH2AFHJnV1bWw7bMWfYWgsTWFoaWRldnJhbiBzdWx0YW7EsW4gYmHFnyBrYWxmYXPEsSBvbGFyYWsgb2x1bXN1eiB2ZSBrxLF0IGFrxLFsbMSxIGJpciBrYWTEsW4gb2xhcmFrIG9sYXlsYXLEsW4gaSZjY2VkaWw7aW5lIHllcmxlxZ9pci4gWmFtYW5sYSBpJmNjZWRpbDtpbmRlIGdpcmRpxJ9pIG95dW5sYXLEsW4gc29udWN1bmRhIEgmdXVtbDtycmVtIFN1bHRhbidhIHlhbmHFn8Sxci5kAgcPZBYCZg8VBQE3RC9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMjIwLzMyMC9jZjFwbjFrdXBobTM0aHVnaDNuZzBqdTh0OXFuMXYuanBnCUfDnEwgQcSeQRBFTkfEsE4gR8OcTkFZRElOcSZuYnNwO0hhcmVtZGUgJmNjZWRpbDthbMSxxZ9hbiBoYWTEsW0gYcSfYWxhcmRhbiBiaXJpZGlyLiBTJnV1bWw7bWImdXVtbDtsIEHEn2FuxLFuIGVuIGImdXVtbDt5JnV1bWw7ayByYWtpYmlkaXIuZAIID2QWAmYPFQUBOEQvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzIyMC8zMjAvenRpM3FjZTVlcTJra2p6Y3B6c3d3NTI4dDlkemtmLmpwZxHEsHNrZW5kZXIgw4dlbGViaRVIQVNBTiBLw5zDh8OcS8OHRVTEsE6DAiZuYnNwOzE1MzAnbHUgecSxbGxhcsSxbiB6ZW5naW5sacSfaSB2ZSBlbnRlbGxla3QmdXVtbDtlbGxpxJ9peWxlICZuYnNwOyZ1dW1sO25sJnV1bWw7IE9zbWFubMSxIGRlZnRlcmRhcsSxLiDEsGJyYWhpbSBQYcWfYSduxLFuIHlha8SxbiBkb3N0dSBpa2VuIElyYWtleW4gc2VmZXJpbmRlICZuYnNwO8SwYnJhaGltIFBhxZ9hJ3lsYSBnaXJkacSfaSBpa3RpZGFyIG0mdXVtbDtjYWRlbGVzaW5pIGtheWJlZGVyZWsgQmHEn2RhZCdkYSBpZGFtIGVkaWxpci5kAgkPZBYCZg8VBQE5RC9Vc2VyRmlsZXMvS29udWtPeXVuY3VsYXIvMjIwLzMyMC9wZTJjajdlNTZtODlhNzU5OHVyYXVjMjhrYThxMHouanBnBkhlbGVuYQ9DRU1SRSBFQlVaWsSwWUG/BEhlbGVuYSwgb25kb2t1eiB5YcWfxLFuZGEgc3UgZ2liaSBnJnV1bWw7emVsIGJpciBrxLF6ZMSxci4gT251IGcmb3VtbDtyZW4gZCZvdW1sO24mdXVtbDtwIGJpciBkYWhhIGJha2FyLiBBc2xlbiBSdW1kdXIuIE1hbmlzYSZyc3F1bztkYSBhaWxlc2l5bGUgYmlybGlrdGUgeWHFn2FyLiBIYWzEsSBkb2t1eWFyYWsgZ2UmY2NlZGlsO2luaXJsZXIuIEFtYSBvIGtlbmRpc2luaSBpxZ9pbmUgdmVybWnFny4gQWlsZXNpbmRlbiBiYcWfa2Ega2ltc2V5aSBnJm91bWw7eiZ1dW1sOyBnJm91bWw7cm1lbWVrdGVkaXIuIEhlbGVuYSZyc3F1bztuxLFuIG9uY2EgZyZ1dW1sO3plbGxpxJ9pIHZlIGR1cnVsdcSfdW51biBhcmTEsW5kYSB6ZWtpLCBzZXJ0IHZlIGjEsXImY2NlZGlsO8SxbiBiaXIga2FkxLFuIGdpemxpZGlyLiAmT3VtbDt6ZyZ1dW1sO3JsJnV1bWw7xJ8mdXVtbDtuZSBoZXIgxZ9leWRlbiBkYWhhIGQmdXVtbDvFn2smdXVtbDtuZCZ1dW1sO3IuIEFzaSwgaG95cmF0IHlhcMSxbMSxIGJpciBrxLF6ZMSxci4gQ2VzdXJkdXIuIEcmb3VtbDt6JnV1bWw7biZ1dW1sOyBidWRha3RhbiBzYWvEsW5tYXouJm5ic3A7ZAIKD2QWAmYPFQUCMTBEL1VzZXJGaWxlcy9Lb251a095dW5jdWxhci8yMjAvMzIwLzc1bnV1OHM1emF5ZW14Z3ZqbDR6c3d0a21xYjJnNS5qcGcQTWF0cmFrw6fEsSBOYXN1aAlGQVTEsEggQUyYAiZuYnNwO09zbWFubMSxIHNlZmVybGVyaW5pIGFubGF0xLFwIG1pbnlhdCZ1dW1sO3JsZWRpxJ9pIHlhem1hbGFyxLF5bGEgJnV1bWw7bmwmdXVtbDssIGQmb3VtbDtuZW1pbiBzYXlnxLEgZyZvdW1sO3JlbiBiaWxpbSBhZGFtxLEsxZ9haXIgdmUgJnV1bWw7bnZhbsSxbsSxIGFsZMSxxJ/EsSBtYXRyYWsgb3l1bnVudW4gbXVjaWRpIHNwb3JjdWxhcsSxbmRhbiBiaXJpZGlyLiDEsGJyYWhpbSBQYcWfYW7EsW4gZW4geWFrxLFuIGRvc3R1IG9sYXJhayBnJm91bWw7ciZ1dW1sO2xtZWt0ZWRpci5kAgsPZBYCZg8VBQIxMUQvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzIyMC8zMjAvYWJiZHhrNXcxczdxOWMxaXU5eWUyZGJudnNxcm10LmpwZxNQdWxhayBNdXN0YWZhIFBhxZ9hDE1VUkFUIMWeQUhBTsABJm5ic3A7MTUzMCdsYXJkYSB2ZSBCYXJiYXJvcyd0YW4gJm91bWw7bmNla2kga2FwZGFuLcSxIGRlcnlhLjE1MzQtMzcgYXJhc8SxbmRhICZxdW90O1BhxZ9hJnF1b3Q7ICZ1dW1sO252YW7EsXlsYSBrdWJiZSB2ZXppcmkgb2xkdS5FeSZ1dW1sO3AnIHRla2kgZyZ1dW1sO3plbCB0JnV1bWw7cmJlc2luaSBNaW1hciBTaW5hbiB5YXB0xLEuZAIMD2QWAmYPFQUCMTJEL1VzZXJGaWxlcy9Lb251a095dW5jdWxhci8yMjAvMzIwLzBubHo5OXJwMWExc2FqaWd5bDhybXpqdmIza3FoMy5qcGcLxZ5la2VyIEHEn2ENWcOcS1NFTCDDnE5BTJUBJm5ic3A7SGFyZW1pbiBiYcWfIGHFnyZjY2VkaWw7xLFzxLEgb2xhcmFrIGt1cmd1c2FsIGJpciBkaXppIGthcmFrdGVyaSBvbGFuIMWeZWtlciBhxJ9hLCBlbiB0YXRsxLEgYXTEscWfbWFsYXLEsW7EsSBTJnV1bWw7bWImdXVtbDtsIEHEn2EneWxhIHlhxZ9hci5kAg0PZBYCZg8VBQIxM0QvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzIyMC8zMjAvcnNtN3MxdGZnaGJwMHA4dzQ5eDU5d2dtOWV2azV3LmpwZwRQQVBBCkFMUCDDlllLRU7AAyZuYnNwO0thdG9saWsgZCZ1dW1sO255YW7EsW4gcnVoYW5pIGxpZGVyaSBvbGFyYWsgUiZvdW1sO25lc2FucyAmY2NlZGlsO2HEn8SxbsSxbiBlbiBnJnV1bWw7JmNjZWRpbDtsJnV1bWw7IMWfYWhzaXlldGxlcmkgJm5ic3A7dmUgc2FuYXQgaGFtaWxlcmkgb2xhbiBQYXBhbGFyIGJ1IGRldmlyZGUgb3J0YSDEsHRhbHlhecSxIGRhIHkmb3VtbDtuZXRpeW9ybGFyZMSxLsSwbXBhcmF0b3JsYXLEsSB2ZSBrcmFsbGFyxLEgJm5ic3A7dGFzZGlrICZuYnNwO3lldGtpc2luZSBzYWhpcCBvbGFuIHBhcGFsYXIsT3NtYW5sxLFuxLFuIFJvbWEgdmVyYXNldGkgdmUgY2loYW4gaGFraW1peWV0aSBpZGRpYWxhcsSxICZvdW1sO24mdXVtbDtuZGUgSGFic2J1cmcgaGFuZWRhbsSxeWxhIGnFn2JpcmxpxJ9pIHlhcGFuIGVuIGcmdXVtbDsmY2NlZGlsO2wmdXVtbDsgc2l5YXNpIHJha2lwbGVyaXlkaS5kAg4PZBYCZg8VBQIxNEQvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzIyMC8zMjAvYzZ3YnQ1NHgwZmw2cjRhc3RxZzVlZWZxdTdrZzlrLmpwZw1Hw5xMRkVNIEhBVFVODlNFTEVOIMOWWlTDnFJLzAEmbmJzcDtTdWx0YW4gUyZ1dW1sO2xleW1hbiZyc3F1bzvEsW4gaWxrIGcmb3VtbDt6ZGVzaSB2ZSBrYWTEsW7EsSBvbGR1xJ91IGQmdXVtbDvFnyZ1dW1sO24mdXVtbDtsJnV1bWw7ci4gT2xhc8SxbMSxa2xhICZuYnNwO1N1bHRhbiAmbmJzcDtTJnV1bWw7bGV5bWFuJnJzcXVvO2EgJm91bWw7bCZ1dW1sO20mdXVtbDtuZSBkZcSfaW4geWFyZW5saWsgZXR0aS5kAg8PZBYCZg8VBQIxNUQvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzIyMC8zMjAvdGU5NHV3YWd1MXY2d255OXVhcmw0MTkyY2xzNWtsLmpwZwZBUk3EsE4MTcOcSkRFIFVaTUFOZCZuYnNwO0FybWluIHNhcnJhZiBKYXNodWEgRWZlbmRpJnJzcXVvO25pbiBrxLF6xLFkxLFyLiBCYWxpIEJleWxlIGImdXVtbDt5JnV1bWw7ayBhxZ9rIHlhxZ9hci4mbmJzcDtkAhAPZBYCZg8VBQIxNkQvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzIyMC8zMjAvcnFrbmtxYTByc2c4MDdqcmNscThjZmhlOHlzYzZ4LmpwZwpEZWxpIFNhYml0EERFTcSwUiBERU3EsFJLQU56Jm5ic3A7T3NtYW5sxLEgT3JkdXN1bnVuICZvdW1sO24gc2FmbGFyxLFuZGEga2FuYXQgdGFrYXJhayBzYXZhxZ9hbiAmb3VtbDt6ZWwgYmlyIGImb3VtbDtsJnV1bWw7xJ8mdXVtbDtuIGFza2VybGVyaW5kZW5kaS5kAhEPZBYCZg8VBQIxN0QvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzIyMC8zMjAveWpyaHJoMnNiajN3cHQyY2V4dDV1bWN1azhtMmRkLmpwZwNMRU8SU0XDh0vEsE4gw5ZaREVNxLBS1AImbmJzcDtIJnV1bWw7cnJlbSBTdWx0YW7EsW4gVWtyYXluYSdkYSBlc2lyIGFsxLFubWFkYW4gJm91bWw7bmNla2kgc2V2Z2lsaXNpIG9sYXJhayBkaXppZGUga3VyZ3VzYWwgYmlyIGthcmFrdGVyLkJpciByZXNzYW0gb2xhcmFrIMSwc3RhbmJ1bCdhIGdlbGlyIHZlIEthbnVuaSBpbGUgSCZ1dW1sO3JyZW0gU3VsdGFuxLFuIHBvcnRyZWxlcmluaSB5YXBhcmFrIHNhcmF5YSB5YWtsYcWfxLFyLEgmdXVtbDtycmVtIFN1bHRhbmEgb2xhbiAmdXVtbDttaXRzaXogYcWfa8SxIMSwYnJhaGltIHBhxZ9hIHRhcmFmxLFuZGFuIGZhcmtlZGlsaW5jZSDFn2FudGFqIHNvbnVjdW5kYSBpaHRpaGFyIGVkZXIuZAISD2QWAmYPFQUCMThEL1VzZXJGaWxlcy9Lb251a095dW5jdWxhci8yMjAvMzIwL3puMThrMnc0cDl1a3ozc2hubXZkbmQyNm5sd2k4ci5qcGcMUmVtbWFsIEFsYmFzCEjDnE1FWVJBZyZuYnNwO0Jha3TEscSfxLEga3VtIGZhbMSxbmRhIGcmb3VtbDtyZCZ1dW1sO2tsZXJpeWxlIG9udSBkaW5sZXllbmxlcmkgxZ9hxZ/EsXJ0YW4gYmlyIG0mdXVtbDtuZWNjaW1kaS5kAhMPZBYCZg8VBQIxOUQvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzIyMC8zMjAvbW50cjV1dWpsMDk5aTk2YnpmY2tnemw3ZXE3OGo1LmpwZwtNT0xMQSBLQUJJWg5QT0xBVCBCxLBMR8SwTgYmbmJzcDtkAhQPZBYCZg8VBQIyMEQvVXNlckZpbGVzL0tvbnVrT3l1bmN1bGFyLzIyMC8zMjAvOWJwZXBsam1lbHk5N3NwbnVuNHB0c3BwbnhjamNrLmpwZwAMQUbEsEZFIEtBTEZB1AImbmJzcDtTdWx0YW4gUyZ1dW1sO2xleW1hbifEsW4gcyZ1dW1sO3QgYW5uZXNpIHZlIHN1bHRhbsSxbiBzJnV1bWw7dCBrYXJkZcWfaSAmdXVtbDtubCZ1dW1sOyBtdXRhc2F2dsSxZiBZYWh5YSBFZmVuZGluaW4gYW5uZXNpIG9sYW4gQWZpZmUga2FkxLFuLFRyYWJ6b25sdWR1ci5BbWFzeWFsxLEgJk91bWw7bWVyIGVmZW5kaW5pbiBlxZ9pIG9sYW4gQWZpZmUgSGF0dW4sc2VuYXJ5byBnZXJlxJ9pIGhhcmVtZSBuaXphbSB2ZXJtZWsgaSZjY2VkaWw7aW4gc3VsdGFuIHRhcmFmxLFuZGFuIGhhcmVtaW4gaWRhcmVjaXNpIG9sYW4gYmHFnyBoYXpuZWRhciBrYWxmYWzEscSfYSB0YXlpbiBlZGlsaXIuZAIVD2QWAmYPFQUCMjFEL1VzZXJGaWxlcy9Lb251a095dW5jdWxhci8yMjAvMzIwL2RmOXdzeHk5NGg3YmxtN2ZmeDQ4Y25ra3VtYmJxdC5KUEcHQVlCxLBHRRBFWkfEsCBFWcOcUE/EnkxV/wEmbmJzcDtLxLFyxLFtIEhhbnphZGVzaSBvbGFyYWsga3VyZ3VzYWwgYmlyIGRpemkga2FocmFtYW7EsSBvbGFuIEF5YmlnZSwgVmFsaWRlIFN1bHRhbiZyc3F1bzvEsW4geWXEn2VuaWRpci4gQmFsaSBCZXkgdmUgQXliaWdlIGlsZSBhcmFzxLFuZGEgbmVmcmV0IHZlIGluYXRsYSB0dXRrdWx1IGJpciBhxZ9rIGJhxZ9sYXIuIEhlciBpa2lzaW5pbiBkZSBzYXJheWRhbiBheXLEsWxtYWxhcsSxeWxhIGhpa2F5ZWxlcmkgc29uIGJ1bHVyLiAmbmJzcDtkZPt1oZjWDIv7O62HG+Atf/z+9+4vtSUn7GAKFqoCdgwR" />
+
+
+<!--HEADER-->
+    
+<div class="wrapper_header">
+	<div class="header"> 
+        
+    	<!--myy logo-->
+    	<div class="myylogo_altpage"><a href="/"><img src="/images/myy_logo.png" width="235" height="115" alt="" border="0"/></a></div>
+   		<!--myy logo son--> 
+        
+    	<!--Tims-->
+    	<div class="tims"><a id="test" href="http://www.tims.tv" target="_blank"><img src="/images/myy_tims.png" width="120" height="115" alt="" border="0"/></a></div>
+    	<!--Tims son--> 
+  	</div>
+</div>
+
+
+<!--HEADER SON--> 
+
+<!--BODY-->
+<div class="wrapper_body">
+    
+
+<div id="PreloadDiv">
+	<div><img src="/images/89.gif" /></div>
+</div>
+<div class="wpapper_konukoyuncu">
+    	<!--GALERİ SLİDER-->
+    	<div class="konukoyuncu_slider">
+			<div class="images_container">
+            	<ul id="Preimages">
+                
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="0"><img src="/UserFiles/KonukOyuncular/0/320/ghya3aacyvk27wh0q2uwflvpqpq90z.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="1"><img src="/UserFiles/KonukOyuncular/0/320/a7inkji3dir85l7w1q4ljs8t9ik52c.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="2"><img src="/UserFiles/KonukOyuncular/0/320/dpl44lkw83k14d18cq3xd4b20d4i5u.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="3"><img src="/UserFiles/KonukOyuncular/0/320/5uygnx3ftequhab8d4tgqskld8teua.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="4"><img src="/UserFiles/KonukOyuncular/0/320/2iekyf54e4c4qrxxpsi2dh1hld5n3m.JPG" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="5"><img src="/UserFiles/KonukOyuncular/0/320/x3zt8fpleh6r0dpql7unjgq6y4j7j2.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="6"><img src="/UserFiles/KonukOyuncular/0/320/v0n4zl77105kvt73b9cgm5hrbdwc0n.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="7"><img src="/UserFiles/KonukOyuncular/0/320/cf1pn1kuphm34hugh3ng0ju8t9qn1v.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="8"><img src="/UserFiles/KonukOyuncular/0/320/zti3qce5eq2kkjzcpzsww528t9dzkf.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="9"><img src="/UserFiles/KonukOyuncular/0/320/pe2cj7e56m89a7598urauc28ka8q0z.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="10"><img src="/UserFiles/KonukOyuncular/0/320/75nuu8s5zayemxgvjl4zswtkmqb2g5.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="11"><img src="/UserFiles/KonukOyuncular/0/320/abbdxk5w1s7q9c1iu9ye2dbnvsqrmt.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="12"><img src="/UserFiles/KonukOyuncular/0/320/0nlz99rp1a1sajigyl8rmzjvb3kqh3.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="13"><img src="/UserFiles/KonukOyuncular/0/320/rsm7s1tfghbp0p8w49x59wgm9evk5w.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="14"><img src="/UserFiles/KonukOyuncular/0/320/c6wbt54x0fl6r4astqg5eefqu7kg9k.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="15"><img src="/UserFiles/KonukOyuncular/0/320/te94uwagu1v6wny9uarl4192cls5kl.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="16"><img src="/UserFiles/KonukOyuncular/0/320/rqknkqa0rsg807jrclq8cfhe8ysc6x.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="17"><img src="/UserFiles/KonukOyuncular/0/320/yjrhrh2sbj3wpt2cext5umcuk8m2dd.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="18"><img src="/UserFiles/KonukOyuncular/0/320/zn18k2w4p9ukz3shnmvdnd26nlwi8r.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="19"><img src="/UserFiles/KonukOyuncular/0/320/mntr5uujl099i96bzfckgzl7eq78j5.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="20"><img src="/UserFiles/KonukOyuncular/0/320/9bpepljmely97spnun4ptsppnxcjck.jpg" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                    <li>
+                    	<div class="imgleft">
+                        	<div class="imgtop">
+                            	<div class="imgright">
+                                	<div class="imgbottom">
+                                    	<div class="content"><a href="#" id="button" class="button" rel="21"><img src="/UserFiles/KonukOyuncular/0/320/df9wsxy94h7blm7ffx48cnkkumbbqt.JPG" /></a></div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                     </li>
+                 
+                </ul>
+			</div>
+		</div>
+        <!--GALERİ SLİDER SON-->
+        
+        <!--OYUNCU BT-->
+        <div class="oyuncu_bt">
+        	<div class="oyuncular"><a href="/Oyuncular">OYUNCULAR</a></div>
+            <div class="konukoyuncular"><a href="/KonukOyuncular" class="active">SEZON OYUNCULAR</a></div>
+        </div>
+         <!--OYUNCU BT-->
+    </div>
+    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal0">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/ghya3aacyvk27wh0q2uwflvpqpq90z.jpg"  height="320" /></div>
+                        <div class="baslik">FİRUZE</div>
+                        <div class="altbaslik">CANSU DERE</div>
+                        <div class="content_5 verticaltext">
+			                   Kurgusal bir karakter olan Firuze,Barbaros tarafından Osmanlı topraklarına getirilir. K&ouml;le pazarında H&uuml;rrem Sultan tarafından g&ouml;r&uuml;l&uuml;r ve saraya alınır. Sultan &nbsp;S&uuml;leyman&rsquo;la kurduğu yakın ilişki H&uuml;rrem Sultan'la karşı karşıya gelmesine neden olur.<br />
+<br type="_moz" />
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal1">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/a7inkji3dir85l7w1q4ljs8t9ik52c.jpg"  height="320" /></div>
+                        <div class="baslik">ŞAH SULTAN</div>
+                        <div class="altbaslik">DENİZ ÇAKIR</div>
+                        <div class="content_5 verticaltext">
+			                   &amp;nbsp;Hatice Sultan'ın davetiyle saraya gelen Şah Sultan, Kanuni'nin kız kardeşlerindendir.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal2">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/dpl44lkw83k14d18cq3xd4b20d4i5u.jpg"  height="320" /></div>
+                        <div class="baslik">MALKOÇOĞLU - BALİ BEY</div>
+                        <div class="altbaslik">BURAK ÖZÇİVİT</div>
+                        <div class="content_5 verticaltext">
+			                   Moha&ccedil; Savaşı'ndaki başarılarıyla tanınan, y&uuml;rekli, savaş&ccedil;ı, İbrahim Paşa ve Sultan S&uuml;leyman&rsquo;ın takdirlerini toplayan namı- diğer Malko&ccedil;oğlu Yahya Paşazade Bali Bey, Rumelinin en &ouml;nemli akıncı beyi olsa da, dizide Sultan S&uuml;leyman'ın bir d&ouml;nem hasodabaşısı olarak yer aldı.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal3">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/5uygnx3ftequhab8d4tgqskld8teua.jpg"  height="320" /></div>
+                        <div class="baslik">MONICA GRITTI</div>
+                        <div class="altbaslik">BERGÜZAR KOREL</div>
+                        <div class="content_5 verticaltext">
+			                   Venedik Do&ccedil;u Alvise Giritti'nin kız kardeşidir.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal4">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/2iekyf54e4c4qrxxpsi2dh1hld5n3m.JPG"  height="320" /></div>
+                        <div class="baslik">Daye Hatun</div>
+                        <div class="altbaslik">SEMA KEÇİK</div>
+                        <div class="content_5 verticaltext">
+			                   &quot;Daye Hatun&quot; Osmanlı'da padişahların s&uuml;tannelerine verilen isimdir. Dizide Daye Hatun, Valide Sultan'ın en yakınıdır ve onun &ouml;l&uuml;m&uuml;n&uuml;n ardından intihar eder.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal5">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/x3zt8fpleh6r0dpql7unjgq6y4j7j2.jpg"  height="320" /></div>
+                        <div class="baslik">Ayas Paşa</div>
+                        <div class="altbaslik">Fehmi Karaaslan</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;Zenginliği ve hareminin genişliği ile &uuml;nl&uuml; olan Ayas Paşa, uzun yıllar kubbe vezirliğinden sonra İbrahim Paşa'nın katliyle 1536-39 arasında vezir-i azam olmuş ve vebadan &ouml;lm&uuml;şt&uuml;r.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal6">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/v0n4zl77105kvt73b9cgm5hrbdwc0n.jpg"  height="320" /></div>
+                        <div class="baslik">GÜLŞAH KALFA</div>
+                        <div class="altbaslik">NİHAN BÜYÜKAĞAÇ</div>
+                        <div class="content_5 verticaltext">
+			                   G&uuml;lşah,Mahidevran sultanın baş kalfası olarak olumsuz ve kıt akıllı bir kadın olarak olayların i&ccedil;ine yerleşir. Zamanla i&ccedil;inde girdiği oyunların sonucunda H&uuml;rrem Sultan'a yanaşır.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal7">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/cf1pn1kuphm34hugh3ng0ju8t9qn1v.jpg"  height="320" /></div>
+                        <div class="baslik">GÜL AĞA</div>
+                        <div class="altbaslik">ENGİN GÜNAYDIN</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;Haremde &ccedil;alışan hadım ağalardan biridir. S&uuml;mb&uuml;l Ağanın en b&uuml;y&uuml;k rakibidir.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal8">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/zti3qce5eq2kkjzcpzsww528t9dzkf.jpg"  height="320" /></div>
+                        <div class="baslik">İskender Çelebi</div>
+                        <div class="altbaslik">HASAN KÜÇÜKÇETİN</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;1530'lu yılların zenginliği ve entellekt&uuml;elliğiyle &nbsp;&uuml;nl&uuml; Osmanlı defterdarı. İbrahim Paşa'nın yakın dostu iken Irakeyn seferinde &nbsp;İbrahim Paşa'yla girdiği iktidar m&uuml;cadelesini kaybederek Bağdad'da idam edilir.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal9">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/pe2cj7e56m89a7598urauc28ka8q0z.jpg"  height="320" /></div>
+                        <div class="baslik">Helena</div>
+                        <div class="altbaslik">CEMRE EBUZZİYA</div>
+                        <div class="content_5 verticaltext">
+			                   Helena, ondokuz yaşında su gibi g&uuml;zel bir kızdır. Onu g&ouml;ren d&ouml;n&uuml;p bir daha bakar. Aslen Rumdur. Manisa&rsquo;da ailesiyle birlikte yaşar. Halı dokuyarak ge&ccedil;inirler. Ama o kendisini işine vermiş. Ailesinden başka kimseyi g&ouml;z&uuml; g&ouml;rmemektedir. Helena&rsquo;nın onca g&uuml;zelliği ve duruluğunun ardında zeki, sert ve hır&ccedil;ın bir kadın gizlidir. &Ouml;zg&uuml;rl&uuml;ğ&uuml;ne her şeyden daha d&uuml;şk&uuml;nd&uuml;r. Asi, hoyrat yapılı bir kızdır. Cesurdur. G&ouml;z&uuml;n&uuml; budaktan sakınmaz.&nbsp;
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal10">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/75nuu8s5zayemxgvjl4zswtkmqb2g5.jpg"  height="320" /></div>
+                        <div class="baslik">Matrakçı Nasuh</div>
+                        <div class="altbaslik">FATİH AL</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;Osmanlı seferlerini anlatıp minyat&uuml;rlediği yazmalarıyla &uuml;nl&uuml;, d&ouml;nemin saygı g&ouml;ren bilim adamı,şair ve &uuml;nvanını aldığı matrak oyununun mucidi sporcularından biridir. İbrahim Paşanın en yakın dostu olarak g&ouml;r&uuml;lmektedir.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal11">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/abbdxk5w1s7q9c1iu9ye2dbnvsqrmt.jpg"  height="320" /></div>
+                        <div class="baslik">Pulak Mustafa Paşa</div>
+                        <div class="altbaslik">MURAT ŞAHAN</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;1530'larda ve Barbaros'tan &ouml;nceki kapdan-ı derya.1534-37 arasında &quot;Paşa&quot; &uuml;nvanıyla kubbe veziri oldu.Ey&uuml;p' teki g&uuml;zel t&uuml;rbesini Mimar Sinan yaptı.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal12">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/0nlz99rp1a1sajigyl8rmzjvb3kqh3.jpg"  height="320" /></div>
+                        <div class="baslik">Şeker Ağa</div>
+                        <div class="altbaslik">YÜKSEL ÜNAL</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;Haremin baş aş&ccedil;ısı olarak kurgusal bir dizi karakteri olan Şeker ağa, en tatlı atışmalarını S&uuml;mb&uuml;l Ağa'yla yaşar.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal13">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/rsm7s1tfghbp0p8w49x59wgm9evk5w.jpg"  height="320" /></div>
+                        <div class="baslik">PAPA</div>
+                        <div class="altbaslik">ALP ÖYKEN</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;Katolik d&uuml;nyanın ruhani lideri olarak R&ouml;nesans &ccedil;ağının en g&uuml;&ccedil;l&uuml; şahsiyetleri &nbsp;ve sanat hamileri olan Papalar bu devirde orta İtalyayı da y&ouml;netiyorlardı.İmparatorları ve kralları &nbsp;tasdik &nbsp;yetkisine sahip olan papalar,Osmanlının Roma veraseti ve cihan hakimiyeti iddiaları &ouml;n&uuml;nde Habsburg hanedanıyla işbirliği yapan en g&uuml;&ccedil;l&uuml; siyasi rakipleriydi.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal14">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/c6wbt54x0fl6r4astqg5eefqu7kg9k.jpg"  height="320" /></div>
+                        <div class="baslik">GÜLFEM HATUN</div>
+                        <div class="altbaslik">SELEN ÖZTÜRK</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;Sultan S&uuml;leyman&rsquo;ın ilk g&ouml;zdesi ve kadını olduğu d&uuml;ş&uuml;n&uuml;l&uuml;r. Olasılıkla &nbsp;Sultan &nbsp;S&uuml;leyman&rsquo;a &ouml;l&uuml;m&uuml;ne değin yarenlik etti.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal15">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/te94uwagu1v6wny9uarl4192cls5kl.jpg"  height="320" /></div>
+                        <div class="baslik">ARMİN</div>
+                        <div class="altbaslik">MÜJDE UZMAN</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;Armin sarraf Jashua Efendi&rsquo;nin kızıdır. Bali Beyle b&uuml;y&uuml;k aşk yaşar.&nbsp;
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal16">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/rqknkqa0rsg807jrclq8cfhe8ysc6x.jpg"  height="320" /></div>
+                        <div class="baslik">Deli Sabit</div>
+                        <div class="altbaslik">DEMİR DEMİRKAN</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;Osmanlı Ordusunun &ouml;n saflarında kanat takarak savaşan &ouml;zel bir b&ouml;l&uuml;ğ&uuml;n askerlerindendi.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal17">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/yjrhrh2sbj3wpt2cext5umcuk8m2dd.jpg"  height="320" /></div>
+                        <div class="baslik">LEO</div>
+                        <div class="altbaslik">SEÇKİN ÖZDEMİR</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;H&uuml;rrem Sultanın Ukrayna'da esir alınmadan &ouml;nceki sevgilisi olarak dizide kurgusal bir karakter.Bir ressam olarak İstanbul'a gelir ve Kanuni ile H&uuml;rrem Sultanın portrelerini yaparak saraya yaklaşır,H&uuml;rrem Sultana olan &uuml;mitsiz aşkı İbrahim paşa tarafından farkedilince şantaj sonucunda ihtihar eder.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal18">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/zn18k2w4p9ukz3shnmvdnd26nlwi8r.jpg"  height="320" /></div>
+                        <div class="baslik">Remmal Albas</div>
+                        <div class="altbaslik">HÜMEYRA</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;Baktığı kum falında g&ouml;rd&uuml;kleriyle onu dinleyenleri şaşırtan bir m&uuml;neccimdi.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal19">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/mntr5uujl099i96bzfckgzl7eq78j5.jpg"  height="320" /></div>
+                        <div class="baslik">MOLLA KABIZ</div>
+                        <div class="altbaslik">POLAT BİLGİN</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal20">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/9bpepljmely97spnun4ptsppnxcjck.jpg"  height="320" /></div>
+                        <div class="baslik"></div>
+                        <div class="altbaslik">AFİFE KALFA</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;Sultan S&uuml;leyman'ın s&uuml;t annesi ve sultanın s&uuml;t kardeşi &uuml;nl&uuml; mutasavvıf Yahya Efendinin annesi olan Afife kadın,Trabzonludur.Amasyalı &Ouml;mer efendinin eşi olan Afife Hatun,senaryo gereği hareme nizam vermek i&ccedil;in sultan tarafından haremin idarecisi olan baş haznedar kalfalığa tayin edilir.
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+    
+    
+     <!--KONUK OYUNCU MODAL-->
+                    <div id="modal" class="modal21">
+	                    <div class="close"><a href="#"></a></div>
+	                    <div class="oyuncufoto"><img src="/UserFiles/KonukOyuncular/220/320/df9wsxy94h7blm7ffx48cnkkumbbqt.JPG"  height="320" /></div>
+                        <div class="baslik">AYBİGE</div>
+                        <div class="altbaslik">EZGİ EYÜPOĞLU</div>
+                        <div class="content_5 verticaltext">
+			                   &nbsp;Kırım Hanzadesi olarak kurgusal bir dizi kahramanı olan Aybige, Valide Sultan&rsquo;ın yeğenidir. Bali Bey ve Aybige ile arasında nefret ve inatla tutkulu bir aşk başlar. Her ikisinin de saraydan ayrılmalarıyla hikayeleri son bulur. &nbsp;
+		                    </div>
+	
+                    </div>
+                    <!--KONUK OYUNCU MODAL-->
+                    
+
+</div>
+<!--BODY-SON-->
+
+<!--SLİDER PANEL-->
+<div class="sliderWrap">
+	<div class="openCloseIdentifier">
+        
+    </div>
+    <div class="slider">
+    	<div class="sliderContent">
+        	<!--SLİDER PANEL CONTROLS-->
+        
+           
+	<div class="controls">
+    <div id="jquery_jplayer"></div>
+            	<div class="music">
+                <div class="openCloseMusic">
+                    
+                    </div>
+                <a href="#" class="MusicAction" id="MusicImage"><img src="/images/music_open.png" alt="musicopen" /></a>
+                <a href="#" class="MusicAction" id="A1"><img src="/images/music_mute.png" alt="musicopen" /></a>
+                </div>
+                <div class="openCloseWrap"><a href="#" class="topMenuAction" id="topMenuImage"><img src="/images/open.png" alt="open" /></a></div>
+                <div class="menu"><a href="#" class="topMenuAction">MENÜ</a></div>
+                <div class="dil">
+                	<a href="#" class="tr">TR</a>
+                    <a href="#" class="eng">ENG</a>
+                </div>
+            </div>
+            <!--SLİDER PANEL CONTROLS SON-->
+            
+            <!--SLİDER MENU-->
+ <div class="list_carousel">
+				<ul id="foo0">
+					
+                    <li><a rel="1" href="/Fragman" class="fragman">FRAGMAN</a></li>
+					<li><a rel="2" href="/Hikaye" class="hikaye">HİKAYE</a></li>
+                    <li><a rel="3" href="/Oyuncular" class="oyuncular">OYUNCULAR</a></li>
+                    <li><a rel="4" href="/Bolum" class="bolumtanitimi">BÖLÜM TANITIMI</a></li>
+                    <li><a rel="5" href="/Sponsor" class="sponsorlar">SPONSORLAR</a></li>
+                    <li><a rel="6" href="/Galeri" class="galeri">GALERİ</a></li>
+                    <li><a rel="7" href="/Kunye" class="kunye">KÜNYE</a></li>
+                    <li><a rel="8" href="/MultiMedya" class="multimedya">MULTIMEDYA</a></li>
+                    <li><a rel="9" href="/Iletisim" class="iletisim">İLETİŞİM</a></li>
+				</ul>
+				<a id="prev2" class="prev" href="#">GERİ</a>
+				<a id="next2" class="next" href="#">İLERİ</a>
+			</div>
+             <!--SLİDER MENU SON-->
+           
+        </div>
+   </div>
+</div>
+<!--SLİDER PANEL SON-->
+
+<!--COPYRIGHT-->
+<div class="copyright">
+	<div class="copy-in"><a href="http://www.70x100.com" target="_blank"><img src="/images/70x100.png" width="49" height="14" /></a></div>
+</div>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34384717-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })(); 
+</script> 
+
+<!--COPYRIGHT SON-->
+    </form>
+</body>
+</html>

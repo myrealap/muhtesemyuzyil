@@ -1,0 +1,256 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	MUHTEŞEM YÜZYIL
+</title>
+    <link rel="shortcut icon" href="/images/myy_fav_icon.gif" />
+	<link rel="stylesheet" type="text/css" href="/css/muhtesem.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/myy_font.css" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/jquery.mCustomScrollbar.css" />
+	<script type="text/javascript" src="/js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.carouFredSel-5.6.2.js"></script>
+    <script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+    
+    <script src="/js/jquery.mousewheel.min.js"></script>
+    <script src="/js/jquery.mCustomScrollbar.js"></script>
+    <script src="/js/jquery.jplayer.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.preloader.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	    $(document).ready(function () {
+
+	       
+
+	        $(".topMenuAction").click(function () {
+	            if ($(".openCloseIdentifier").is(":hidden")) {
+	                $(".slider").animate({ marginTop: "0px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/open.png" alt="open" />');
+	                $(".openCloseIdentifier").show();
+	            } else {
+	                $(".slider").animate({ marginTop: "-163px" }, 500);
+	                $("#topMenuImage").html('<img src="/images/close.png" alt="close" />');
+	                $(".openCloseIdentifier").hide();
+	            }
+	        });
+	        $(".MusicAction").click(function () {
+	            if ($(".openCloseMusic").is(":hidden")) {
+	                $("#MusicImage").html('<img src="/images/music_open.png" alt="musicopen" />');
+	                $(".openCloseMusic").show();
+	            } else {
+	                $("#MusicImage").html('<img src="/images/music_mute.png" alt="musicclose" />');
+	                $(".openCloseMusic").hide();
+	            }
+	        });
+
+	        //	Basic carousel, no options
+	        $('#foo0').carouFredSel({
+	            auto: false,
+	            prev: '#prev2',
+	            next: '#next2',
+	            width: 814
+	        });
+
+	        $("#test").click(function () {
+
+	            
+	        });
+
+	    });
+	</script>
+    <script src="/js/ActiveMenu.js"></script>
+    
+<script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/jquery.mCustomScrollbar.css" />
+<script src="/js/jquery.mousewheel.min.js"></script>
+<script src="/js/jquery.mCustomScrollbar.js"></script>
+<script src="/js/PreLoadCustom.js" type="text/javascript"></script>
+<script type="text/javascript">
+	(function($){
+			$(window).load(function(){
+					$(".sponsor_slider").mCustomScrollbar({
+					horizontalScroll:true,
+				});
+			});
+		})(jQuery);
+		
+	</script>
+</head>
+<body>
+    <form method="post" action="/Sponsor" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNDk3MTE3NDIxD2QWAmYPZBYCAgMPZBYCAgEPZBYCZg8UKwACDxYEHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50AhdkZBYGZg9kFhACAQ9kFgJmDxUCGGh0dHA6Ly93d3cuYWx0aW5iYXMuY29tL0AvVXNlckZpbGVzL1Nwb25zb3JsYXIvMTI4LzExMi80cm1zZXJtcHo4czU1NjBsMzJ4ejhkMngzbDVsOGUuSlBHZAICD2QWAmYPFQIXaHR0cDovL3d3dy5yZWlzb2dsdS5uZXRAL1VzZXJGaWxlcy9TcG9uc29ybGFyLzEyOC8xMTIvczNleWdjcTJ4ZTZ6enBmeHozdXZhYzJ3YnNpeGNuLkpQR2QCAw9kFgJmDxUCIWh0dHA6Ly93d3cua3V0YWh5YXBvcnNlbGVuLmNvbS50ckAvVXNlckZpbGVzL1Nwb25zb3JsYXIvMTI4LzExMi9jd3ZkZWxsN2N1bjlmbHFpNjZzbXU0OXp5N2pxMmwuSlBHZAIED2QWAmYPFQIYaHR0cDovL3d3dy5va2lzYW4uY29tLnRyQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyL3k2czRwaHp2dDJsbXRkYWlyenpzZGppZXgxd2VtNS5wbmdkAgUPZBYCZg8VAhZodHRwOi8vd3d3Lmtydm4uY29tLnRyQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyL21rYnI5dnc1aHRmNWN2ZWFkMjAza3l5OGkzZWRlai5qcGdkAgYPZBYCZg8VAhZodHRwOi8vd3d3LmFzdGFzbGkuY29tQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyL2oyNTJieTUzZ2hucjczM2kyM2ZtOGRkdjRlamttbi5KUEdkAgcPZBYCZg8VAhxodHRwOi8vd3d3LmFybWFkYWNlcmFtaWMuY29tQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyL3duMGR5ZzBoZmczcGdzOGk3cHFpaHg5ZGd1bHZ3ei5KUEdkAggPZBYCZg8VAhlodHRwOi8vd3d3LmJpYW5jYWJveWEuY29tQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyL2o2OHh0Ym1qcDJyNnJmZHlzemMyazNxaHR3NWFtMC5KUEdkAgEPZBYQAgEPZBYCZg8VAhpodHRwOi8vd3d3LmRlY29yaXVtLmNvbS50ckAvVXNlckZpbGVzL1Nwb25zb3JsYXIvMTI4LzExMi9rbGc0ZzVhcDFxdWF3dDN6bWYxazg3cnZxdHVnYTIuanBnZAICD2QWAmYPFQIbaHR0cDovL3d3dy50b3N1bm9nbHUuY29tLnRyQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyL3p2ZmF3MGlwNTJjbHRwYnU2cWZncGE5eDJjMzNlOS5qcGdkAgMPZBYCZg8VAhxodHRwOi8vd3d3LmJhc2FyYW5sYXIuY29tLnRyQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyL2NpMTRoOWUyMmQyZzlqZmF5M3pjbXQwcWF1OHVpdS5qcGdkAgQPZBYCZg8VAhhodHRwOi8vd3d3Lm5ldmFkYS5jb20udHJAL1VzZXJGaWxlcy9TcG9uc29ybGFyLzEyOC8xMTIva3RrczlieHJoNGJybjZ6dTkxeWZ0M3hqcGh4bHk1LkpQR2QCBQ9kFgJmDxUCG2h0dHA6Ly93d3cubGFsZWRldnJpLmNvbS50ckAvVXNlckZpbGVzL1Nwb25zb3JsYXIvMTI4LzExMi8xbnljZm5nZXNjbGkzM2M1Zzc5YnN0dng0MzAyM3kuanBnZAIGD2QWAmYPFQIkaHR0cDovL3d3dy5zdGFyd29vZHlhcGltYXJrZXQuY29tLnRyQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyL2NzZWJ2Y244YmtmYmh6bDZkZjhqbW01cXQ2eWFnNy5KUEdkAgcPZBYCZg8VAhVodHRwOi8vd3d3LmJrZy5jb20udHJBL1VzZXJGaWxlcy9TcG9uc29ybGFyLzEyOC8xMTIvdnJ6YWI2eTduaWtyeDNjZ3E4YjlkZmhnd2dnMjA0LmpwZWdkAggPZBYCZg8VAhhodHRwOi8vd3d3LmhlbGVuYS5jb20udHJAL1VzZXJGaWxlcy9TcG9uc29ybGFyLzEyOC8xMTIvcGJjemdwOXVmcm51aWtidnFleGQwZnZ5M3o5ZjYyLmpwZ2QCAg9kFg4CAQ9kFgJmDxUCIGh0dHA6Ly93d3cuYXNpdGFuZXJlc3RhdXJhbnQuY29tQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyLzdjczdqcXRlcGN5YTcxOGRia3E2cHdtODQzZXgzMS5qcGdkAgIPZBYCZg8VAhxodHRwOi8vd3d3LmhhcmVtZGVsaWd0aHMuY29tQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyL2Qxemg2M2diYnA0M2xsOW5nZG41NDJxOGg1cTkyYi5qcGdkAgMPZBYCZg8VAhlodHRwOi8vd3d3LmlzYmlyeWF0YWsuY29tQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyL2Nlanc0c3QxZWV6OGh5eGg2NXUycDc0YmtsMmwyay5KUEdkAgQPZBYCZg8VAhpodHRwOi8vd3d3Lmhhc3NheWFuZ2luLmNvbUAvVXNlckZpbGVzL1Nwb25zb3JsYXIvMTI4LzExMi9xaGxkd2Y0N3ZxNHNpaWhsZDc1aWVwa2tkdHNhZnUuanBnZAIFD2QWAmYPFQIZaHR0cDovL3d3dy5iaXJnZXN0b25lLmNvbUEvVXNlckZpbGVzL1Nwb25zb3JsYXIvMTI4LzExMi81bnUzZWR6Zmo2eGppcXZmdzUwbDFhanRhZDJsN2wuanBlZ2QCBg9kFgJmDxUCGmh0dHA6Ly93d3cudGVraW5vemFsaXQuY29tQC9Vc2VyRmlsZXMvU3BvbnNvcmxhci8xMjgvMTEyL3o3bGYwaXhmMXd5ZzJkOXRwZDVhYjM5aDRzZDNhYy5qcGdkAgcPZBYCZg8VAh1odHRwOi8vd3d3LmNlbGlrcHJlZmFicmlrLmNvbUAvVXNlckZpbGVzL1Nwb25zb3JsYXIvMTI4LzExMi9yajdpY2hlYjFydWlyZWs4OHB2d2M2dWU4a20yd3kuanBnZBgBBRpjdGwwMCRNYWluX0JvZHkkUnB0U3BvbnNvcg8UKwAOZGRkAghkZGQ8KwAXAAIXZGRkZgL/////D2TQZAdNsEklNxfVDiauJLutQ0s4YcoXwtr6W+drMQ2a3Q==" />
+
+
+<!--HEADER-->
+    
+<div class="wrapper_header">
+	<div class="header"> 
+        
+    	<!--myy logo-->
+    	<div class="myylogo_altpage"><a href="/"><img src="/images/myy_logo.png" width="235" height="115" alt="" border="0"/></a></div>
+   		<!--myy logo son--> 
+        
+    	<!--Tims-->
+    	<div class="tims"><a id="test" href="http://www.tims.tv" target="_blank"><img src="/images/myy_tims.png" width="120" height="115" alt="" border="0"/></a></div>
+    	<!--Tims son--> 
+  	</div>
+</div>
+
+
+<!--HEADER SON--> 
+
+<!--BODY-->
+<div class="wrapper_body">
+    
+<div id="PreloadDiv"><div><img src="/images/89.gif" /></div></div>
+<div class="wrapper_genel">
+<div class="wpapper_sponsor">
+    	<!--GALERİ SLİDER-->
+    	<div class="sponsor_slider">
+			<div class="images_container">
+            	<table id="Preimages" border="0" cellpadding="0" cellspacing="0">
+                        
+                            <tr>
+                            
+                        <td><div class="sponsor"><a target="_blank" href="http://www.altinbas.com/"><img src="/UserFiles/Sponsorlar/128/112/4rmsermpz8s5560l32xz8d2x3l5l8e.JPG" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.reisoglu.net"><img src="/UserFiles/Sponsorlar/128/112/s3eygcq2xe6zzpfxz3uvac2wbsixcn.JPG" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.kutahyaporselen.com.tr"><img src="/UserFiles/Sponsorlar/128/112/cwvdell7cun9flqi66smu49zy7jq2l.JPG" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.okisan.com.tr"><img src="/UserFiles/Sponsorlar/128/112/y6s4phzvt2lmtdairzzsdjiex1wem5.png" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.krvn.com.tr"><img src="/UserFiles/Sponsorlar/128/112/mkbr9vw5htf5cvead203kyy8i3edej.jpg" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.astasli.com"><img src="/UserFiles/Sponsorlar/128/112/j252by53ghnr733i23fm8ddv4ejkmn.JPG" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.armadaceramic.com"><img src="/UserFiles/Sponsorlar/128/112/wn0dyg0hfg3pgs8i7pqihx9dgulvwz.JPG" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.biancaboya.com"><img src="/UserFiles/Sponsorlar/128/112/j68xtbmjp2r6rfdyszc2k3qhtw5am0.JPG" width="128" height="112" /></a></div></td>
+                        
+                            </tr>
+                            
+                            <tr>
+                            
+                        <td><div class="sponsor"><a target="_blank" href="http://www.decorium.com.tr"><img src="/UserFiles/Sponsorlar/128/112/klg4g5ap1quawt3zmf1k87rvqtuga2.jpg" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.tosunoglu.com.tr"><img src="/UserFiles/Sponsorlar/128/112/zvfaw0ip52cltpbu6qfgpa9x2c33e9.jpg" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.basaranlar.com.tr"><img src="/UserFiles/Sponsorlar/128/112/ci14h9e22d2g9jfay3zcmt0qau8uiu.jpg" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.nevada.com.tr"><img src="/UserFiles/Sponsorlar/128/112/ktks9bxrh4brn6zu91yft3xjphxly5.JPG" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.laledevri.com.tr"><img src="/UserFiles/Sponsorlar/128/112/1nycfngescli33c5g79bstvx43023y.jpg" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.starwoodyapimarket.com.tr"><img src="/UserFiles/Sponsorlar/128/112/csebvcn8bkfbhzl6df8jmm5qt6yag7.JPG" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.bkg.com.tr"><img src="/UserFiles/Sponsorlar/128/112/vrzab6y7nikrx3cgq8b9dfhgwgg204.jpeg" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.helena.com.tr"><img src="/UserFiles/Sponsorlar/128/112/pbczgp9ufrnuikbvqexd0fvy3z9f62.jpg" width="128" height="112" /></a></div></td>
+                        
+                            </tr>
+                            
+                            <tr>
+                            
+                        <td><div class="sponsor"><a target="_blank" href="http://www.asitanerestaurant.com"><img src="/UserFiles/Sponsorlar/128/112/7cs7jqtepcya718dbkq6pwm843ex31.jpg" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.haremdeligths.com"><img src="/UserFiles/Sponsorlar/128/112/d1zh63gbbp43ll9ngdn542q8h5q92b.jpg" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.isbiryatak.com"><img src="/UserFiles/Sponsorlar/128/112/cejw4st1eez8hyxh65u2p74bkl2l2k.JPG" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.hassayangin.com"><img src="/UserFiles/Sponsorlar/128/112/qhldwf47vq4siihld75iepkkdtsafu.jpg" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.birgestone.com"><img src="/UserFiles/Sponsorlar/128/112/5nu3edzfj6xjiqvfw50l1ajtad2l7l.jpeg" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.tekinozalit.com"><img src="/UserFiles/Sponsorlar/128/112/z7lf0ixf1wyg2d9tpd5ab39h4sd3ac.jpg" width="128" height="112" /></a></div></td>
+                        
+                        <td><div class="sponsor"><a target="_blank" href="http://www.celikprefabrik.com"><img src="/UserFiles/Sponsorlar/128/112/rj7icheb1ruirek88pvwc6ue8km2wy.jpg" width="128" height="112" /></a></div></td>
+                        
+                            </tr>
+                            
+                </table>
+
+          </div>
+		</div>
+        <!--GALERİ SLİDER SON-->
+     
+    </div>
+</div>
+
+</div>
+<!--BODY-SON-->
+
+<!--SLİDER PANEL-->
+<div class="sliderWrap">
+	<div class="openCloseIdentifier">
+        
+    </div>
+    <div class="slider">
+    	<div class="sliderContent">
+        	<!--SLİDER PANEL CONTROLS-->
+        
+           
+	<div class="controls">
+    <div id="jquery_jplayer"></div>
+            	<div class="music">
+                <div class="openCloseMusic">
+                    
+                    </div>
+                <a href="#" class="MusicAction" id="MusicImage"><img src="/images/music_open.png" alt="musicopen" /></a>
+                <a href="#" class="MusicAction" id="A1"><img src="/images/music_mute.png" alt="musicopen" /></a>
+                </div>
+                <div class="openCloseWrap"><a href="#" class="topMenuAction" id="topMenuImage"><img src="/images/open.png" alt="open" /></a></div>
+                <div class="menu"><a href="#" class="topMenuAction">MENÜ</a></div>
+                <div class="dil">
+                	<a href="#" class="tr">TR</a>
+                    <a href="#" class="eng">ENG</a>
+                </div>
+            </div>
+            <!--SLİDER PANEL CONTROLS SON-->
+            
+            <!--SLİDER MENU-->
+ <div class="list_carousel">
+				<ul id="foo0">
+					
+                    <li><a rel="1" href="/Fragman" class="fragman">FRAGMAN</a></li>
+					<li><a rel="2" href="/Hikaye" class="hikaye">HİKAYE</a></li>
+                    <li><a rel="3" href="/Oyuncular" class="oyuncular">OYUNCULAR</a></li>
+                    <li><a rel="4" href="/Bolum" class="bolumtanitimi">BÖLÜM TANITIMI</a></li>
+                    <li><a rel="5" href="/Sponsor" class="sponsorlar">SPONSORLAR</a></li>
+                    <li><a rel="6" href="/Galeri" class="galeri">GALERİ</a></li>
+                    <li><a rel="7" href="/Kunye" class="kunye">KÜNYE</a></li>
+                    <li><a rel="8" href="/MultiMedya" class="multimedya">MULTIMEDYA</a></li>
+                    <li><a rel="9" href="/Iletisim" class="iletisim">İLETİŞİM</a></li>
+				</ul>
+				<a id="prev2" class="prev" href="#">GERİ</a>
+				<a id="next2" class="next" href="#">İLERİ</a>
+			</div>
+             <!--SLİDER MENU SON-->
+           
+        </div>
+   </div>
+</div>
+<!--SLİDER PANEL SON-->
+
+<!--COPYRIGHT-->
+<div class="copyright">
+	<div class="copy-in"><a href="http://www.70x100.com" target="_blank"><img src="/images/70x100.png" width="49" height="14" /></a></div>
+</div>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34384717-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })(); 
+</script> 
+
+<!--COPYRIGHT SON-->
+    </form>
+</body>
+</html>

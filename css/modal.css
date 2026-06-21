@@ -1,0 +1,107 @@
+#modal {
+	visibility: hidden;
+	width: 689px;
+	height: 320px;
+	position: absolute !important;
+	top: 126px;
+	left: 50%;
+	margin-left: -345px !important;
+	z-index: 10000 !important;
+	background: url(../images/modal_bg.png) top center no-repeat;
+	padding: 4px;
+}
+#modal .oyuncufoto {
+	float: left;
+	width: 220px;
+	height: 320px;
+	overflow: hidden;
+}
+#modal .baslik {
+	float: left;
+	width: 350px;
+	height: 25px;
+	font-family: 'trajan_probold';
+	color: #4e3122;
+	font-size: 20px;
+	letter-spacing: 0.19em;
+	line-height: 20px;
+	text-shadow: #bfa36b 1px 1px 1px;
+	margin: 27px 0px 0px 60px;
+	text-align: center;
+}
+#modal .altbaslik {
+	float: left;
+	width: 350px;
+	height: 15px;
+	font-family: 'trajan_probold';
+	color: #4e3122;
+	font-size: 12px;
+	letter-spacing: 0.19em;
+	line-height: 15px;
+	text-shadow: #bfa36b 1px 1px 1px;
+	margin: 10px 0px 0px 60px;
+	text-align: center;
+}
+#modal .close {
+	float: right;
+	width: 18px;
+	height: 19px;
+	margin: 28px 18px 0px 0px;
+}
+#modal .close a {
+	float: left;
+	width: 18px;
+	height: 19px;
+	display: block;
+	background: url(../images/modal_close.png) 0px 0px;
+}
+.content_5 {
+	float:right;
+	width:395px; 
+	height:195px;
+	margin:23px 15px 0px 0px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11px;
+	line-height:20px;
+	letter-spacing:0.01em;
+	color:#3a2108;
+	text-align:justify;
+}
+.reveal-modal-bg {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: url(../images/bg.png);
+	z-index: 100;
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+#modal2 {
+	visibility: hidden;
+	width: 689px;
+	height: 320px;
+	position: absolute !important;
+	top: 126px;
+	left: 50%;
+	margin-left: -345px !important;
+	z-index: 10000 !important;
+	text-align:center;
+	vertical-align:middle;
+	padding: 4px;
+}
+#modal2 img
+{
+
+	position: absolute !important;
+	top: 126px;
+	left: 50%;
+	margin-left: -345px !important;
+	z-index: 10000 !important;
+	text-align:center;
+	vertical-align:middle;
+	padding: 4px;
+}
+#modal2 .resim{ margin-top:auto;margin-bottom:auto}
+#modal2 .resim img{ position:relative; margin-top:auto; margin-bottom:auto}
